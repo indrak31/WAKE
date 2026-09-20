@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,450;1,9..144,500;1,9..144,600&display=swap');
 @import "tailwindcss";
+
+.font-wake {
+  font-family: 'Fraunces', Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+}
 
 @layer base {
   :root {
