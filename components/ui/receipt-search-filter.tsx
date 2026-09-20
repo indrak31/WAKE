@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Search, X, RotateCcw } from "lucide-react";
 import { ReceiptType, chapters } from "@/lib/lifeData";
 import { cn } from "@/lib/utils";
-import { WakeLogo } from "@/components/ui/wake-logo";
+
 
 interface ReceiptSearchFilterProps {
   searchQuery: string;
@@ -60,14 +60,6 @@ export const ReceiptSearchFilter: React.FC<ReceiptSearchFilterProps> = ({
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5">
         <div className="flex items-center justify-between gap-4">
-          {/* Brand Mark */}
-          <a
-            href="#hero-story"
-            className="flex items-center group shrink-0 transition-opacity hover:opacity-90"
-            title="WAKE — Return to Top"
-          >
-            <WakeLogo markSize={26} textSize="text-2xl" className="group-hover:drop-shadow-[0_0_12px_rgba(231,169,76,0.6)] transition-all" />
-          </a>
 
           {/* Minimalist Controls Combo: Search + Chapter Filter + Reset */}
           <div className="flex items-center gap-2.5 sm:gap-3 flex-1 justify-end max-w-xl">

@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { chapters, Chapter } from "@/lib/lifeData";
 import { Music, ShoppingBag, MapPin, MessageCircle, ArrowDown } from "lucide-react";
+import { WakeLogo } from "@/components/ui/wake-logo";
 
 export function ScrollingFeatureShowcase() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -72,6 +73,11 @@ export function ScrollingFeatureShowcase() {
           {/* Subtle noise and radial glow */}
           <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-500/15 via-transparent to-black/50" />
           <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] rounded-full bg-violet-600/[0.15] blur-[140px] pointer-events-none" />
+
+          {/* Wake brand mark — upper left */}
+          <div className="absolute top-6 left-8 md:left-12 z-20">
+            <WakeLogo markSize={28} textSize="text-2xl" />
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 h-full w-full max-w-7xl mx-auto z-10">
             {/* Left Column: Chapter Narratives & Controls */}
