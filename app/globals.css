@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #090514;
+    --foreground: #f5f3ff;
+  }
+}
+
+html {
+  /* Fast native scrolling without artificial interpolation lag */
+  scroll-padding-top: 72px;
+}
+
+body {
+  background-color: var(--background);
+  background-image:
+    radial-gradient(circle 900px at 50% -120px, rgba(168, 85, 247, 0.32), transparent 75%),
+    radial-gradient(circle 800px at 90% 25%, rgba(139, 92, 246, 0.25), transparent 70%),
+    radial-gradient(circle 900px at 10% 55%, rgba(124, 58, 237, 0.28), transparent 70%),
+    radial-gradient(circle 800px at 85% 80%, rgba(192, 132, 252, 0.22), transparent 70%),
+    radial-gradient(circle 600px at 25% 95%, rgba(217, 70, 239, 0.20), transparent 65%);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
+}
+
+::selection {
+  background-color: rgba(168, 85, 247, 0.45);
+  color: #ffffff;
+}
+
+/* GPU hardware acceleration & 60 FPS performance optimizations */
+.gpu-layer {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* High-speed scroll optimization: skip rendering offscreen items */
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 800px;
+}
+
+/* Custom serrated receipt paper edge */
+.receipt-paper {
+  background-color: #fdfbf7;
+  color: #1c1917;
+  position: relative;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.receipt-serrated-bottom {
+  position: relative;
+}
+
+.receipt-serrated-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-size: 16px 8px;
+  background-repeat: repeat-x;
+  background-image: radial-gradient(circle, transparent, transparent 50%, #fdfbf7 50%, #fdfbf7 100%);
+}
+
+/* Subtle typewriter / thermal print text styling */
+.font-mono-receipt {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  letter-spacing: -0.02em;
+}
+
+/* Custom scrollbar — Electric Violet with neon glow */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(9, 5, 20, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #c084fc 0%, #a855f7 50%, #7c3aed 100%);
+  border-radius: 9999px;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.7);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #e9d5ff 0%, #c084fc 50%, #9333ea 100%);
+}
+
+/* Violet glow aesthetic classes */
+.glow-violet-sm {
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.25);
+}
+
+.glow-violet-md {
+  box-shadow: 0 0 30px rgba(147, 51, 234, 0.35), 0 0 60px rgba(124, 58, 237, 0.18);
+}
+
+.glow-violet-border {
+  border-color: rgba(168, 85, 247, 0.35);
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.25);
+}
