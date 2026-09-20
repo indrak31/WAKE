@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { Search, X, RotateCcw } from "lucide-react";
-import { ReceiptType, chapters } from "@/lib/lifeData";
+import React, { useEffect, useState, useMemo } from "react";
+import { Search, X, RotateCcw, Coins, Music } from "lucide-react";
+import { Receipt, ReceiptType, chapters } from "@/lib/lifeData";
 import { cn } from "@/lib/utils";
 
 
@@ -14,7 +14,7 @@ interface ReceiptSearchFilterProps {
   selectedChapter: string | null;
   onSelectChapter: (chapterId: string | null) => void;
   totalMoments?: number;
-  filteredCount?: number;
+  filteredReceipts?: Receipt[];
   onResetFilters: () => void;
   onOpenStoryTour?: () => void;
   className?: string;
@@ -26,6 +26,7 @@ export const ReceiptSearchFilter: React.FC<ReceiptSearchFilterProps> = ({
   selectedChapter,
   onSelectChapter,
   onResetFilters,
+  filteredReceipts = [],
   className,
 }) => {
   // Local debounced input state (~200ms)
@@ -45,6 +46,23 @@ export const ReceiptSearchFilter: React.FC<ReceiptSearchFilterProps> = ({
 
   const hasActiveFilters = searchQuery.trim().length > 0 || selectedChapter !== null;
 
+  // Live Tracing Metrics computed directly from active receipts
+  const totalMoneySpent = useMemo(() => {
+    return filteredReceipts
+      .filter((r) => r.type === "purchase")
+      .reduce((acc, r) => acc + (r.details?.total || 0), 0);
+  }, [filteredReceipts]);
+
+  const totalMusicTracks = useMemo(() => {
+    return filteredReceipts.filter((r) => r.type === "music").length;
+  }, [filteredReceipts]);
+
+  const totalStreamsPlayed = useMemo(() => {
+    return filteredReceipts
+      .filter((r) => r.type === "music")
+      .reduce((acc, r) => acc + (r.details?.playCount || 1), 0);
+  }, [filteredReceipts]);
+
   return (
     <div
       id="explore"
@@ -59,7 +77,40 @@ export const ReceiptSearchFilter: React.FC<ReceiptSearchFilterProps> = ({
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-between gap-3 sm:gap-4">
+          {/* Compact Live Tracing Stats Ribbon */}
+          <div className="flex items-center gap-2 sm:gap-2.5 shrink-0 overflow-x-auto no-scrollbar py-0.5">
+            {/* Money Traced Pill */}
+            <div
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 font-mono text-xs shadow-[0_0_12px_rgba(245,158,11,0.2)] transition-all hover:bg-amber-500/20 cursor-default"
+              title="Total money spent across active receipts"
+            >
+              <Coins className="w-3.5 h-3.5 text-amber-400" />
+              <span className="font-semibold text-white font-mono">${totalMoneySpent.toFixed(2)}</span>
+              <span className="text-amber-400/70 text-[10px] uppercase tracking-wider font-sans">spent</span>
+            </div>
+
+            {/* Music Tracks & Streams Pill */}
+            <div
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-violet-500/10 border border-violet-500/30 text-violet-300 font-mono text-xs shadow-[0_0_12px_rgba(168,85,247,0.2)] transition-all hover:bg-violet-500/20 cursor-default"
+              title="Music tracks and total play count"
+            >
+              <Music className="w-3.5 h-3.5 text-violet-400" />
+              <span className="font-semibold text-white font-mono">{totalMusicTracks}</span>
+              <span className="text-violet-400/70 text-[10px] uppercase tracking-wider font-sans">tracks</span>
+              <span className="text-violet-500/40 hidden md:inline">•</span>
+              <span className="text-violet-300/80 hidden md:inline text-[11px] font-mono">{totalStreamsPlayed} plays</span>
+            </div>
+
+            {/* Total Fragments Badge */}
+            <div
+              className="hidden lg:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-neutral-300 font-mono text-xs hover:border-white/20 transition-all cursor-default"
+              title="Digital fragments logged"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              <span>{filteredReceipts.length} fragments</span>
+            </div>
+          </div>
 
           {/* Minimalist Controls Combo: Search + Chapter Filter + Reset */}
           <div className="flex items-center gap-2.5 sm:gap-3 flex-1 justify-end max-w-xl">

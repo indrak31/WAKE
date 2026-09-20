@@ -99,6 +99,7 @@ export default function LifeInReceiptsPage() {
         selectedChapter={selectedChapter}
         onSelectChapter={setSelectedChapter}
         onResetFilters={handleResetFilters}
+        filteredReceipts={filteredReceipts}
       />
 
       {/* COMPONENT 3 (Part 2): CONNECTION EXPLORER (Scatter Constellation & SVG Lines) */}
