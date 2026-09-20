@@ -6,6 +6,7 @@ import { ScrollingFeatureShowcase } from "@/components/ui/interactive-scrolling-
 import { ReceiptSearchFilter } from "@/components/ui/receipt-search-filter";
 import { ConnectionExplorer } from "@/components/ui/connection-explorer";
 import { Timeline } from "@/components/ui/timeline";
+import { LifeAnalytics } from "@/components/ui/life-analytics";
 import { StoryReveal } from "@/components/ui/story-reveal";
 import { ReceiptDetailModal } from "@/components/ui/receipt-detail-modal";
 import { SoundtrackDock } from "@/components/ui/soundtrack-dock";
@@ -113,6 +114,9 @@ export default function LifeInReceiptsPage() {
         filteredReceipts={filteredReceipts}
         onSelectReceipt={(r) => setInspectReceipt(r)}
       />
+
+      {/* COMPONENT: LIFE ANALYTICS (Interactive Pie & Donut Charts for Financial & Activity Tracing) */}
+      <LifeAnalytics filteredReceipts={filteredReceipts} />
 
       {/* COMPONENT 5 (Part 3): STORY REVEAL (Closing Chapter 6 Payoff) */}
       <StoryReveal />

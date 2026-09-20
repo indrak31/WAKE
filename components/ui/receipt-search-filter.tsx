@@ -80,36 +80,48 @@ export const ReceiptSearchFilter: React.FC<ReceiptSearchFilterProps> = ({
         <div className="flex items-center justify-between gap-3 sm:gap-4">
           {/* Compact Live Tracing Stats Ribbon */}
           <div className="flex items-center gap-2 sm:gap-2.5 shrink-0 overflow-x-auto no-scrollbar py-0.5">
-            {/* Money Traced Pill */}
-            <div
-              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 font-mono text-xs shadow-[0_0_12px_rgba(245,158,11,0.2)] transition-all hover:bg-amber-500/20 cursor-default"
-              title="Total money spent across active receipts"
+            {/* Money Traced Pill -> Jump to #analytics */}
+            <button
+              onClick={() => {
+                const el = document.getElementById("analytics");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 font-mono text-xs shadow-[0_0_12px_rgba(245,158,11,0.2)] transition-all hover:bg-amber-500/25 hover:border-amber-400/50 hover:scale-105 active:scale-95 cursor-pointer"
+              title="Click to view full financial breakdown & pie chart"
             >
               <Coins className="w-3.5 h-3.5 text-amber-400" />
               <span className="font-semibold text-white font-mono">${totalMoneySpent.toFixed(2)}</span>
               <span className="text-amber-400/70 text-[10px] uppercase tracking-wider font-sans">spent</span>
-            </div>
+            </button>
 
-            {/* Music Tracks & Streams Pill */}
-            <div
-              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-violet-500/10 border border-violet-500/30 text-violet-300 font-mono text-xs shadow-[0_0_12px_rgba(168,85,247,0.2)] transition-all hover:bg-violet-500/20 cursor-default"
-              title="Music tracks and total play count"
+            {/* Music Tracks & Streams Pill -> Jump to #analytics */}
+            <button
+              onClick={() => {
+                const el = document.getElementById("analytics");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-violet-500/10 border border-violet-500/30 text-violet-300 font-mono text-xs shadow-[0_0_12px_rgba(168,85,247,0.2)] transition-all hover:bg-violet-500/25 hover:border-violet-400/50 hover:scale-105 active:scale-95 cursor-pointer"
+              title="Click to view activity breakdown & insomnia curve"
             >
               <Music className="w-3.5 h-3.5 text-violet-400" />
               <span className="font-semibold text-white font-mono">{totalMusicTracks}</span>
               <span className="text-violet-400/70 text-[10px] uppercase tracking-wider font-sans">tracks</span>
               <span className="text-violet-500/40 hidden md:inline">•</span>
               <span className="text-violet-300/80 hidden md:inline text-[11px] font-mono">{totalStreamsPlayed} plays</span>
-            </div>
+            </button>
 
             {/* Total Fragments Badge */}
-            <div
-              className="hidden lg:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-neutral-300 font-mono text-xs hover:border-white/20 transition-all cursor-default"
-              title="Digital fragments logged"
+            <button
+              onClick={() => {
+                const el = document.getElementById("analytics");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="hidden lg:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-neutral-300 font-mono text-xs hover:border-white/20 hover:bg-white/10 transition-all cursor-pointer"
+              title="Click to view analytics"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
               <span>{filteredReceipts.length} fragments</span>
-            </div>
+            </button>
           </div>
 
           {/* Minimalist Controls Combo: Search + Chapter Filter + Reset */}
