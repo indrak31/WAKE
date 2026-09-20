@@ -73,6 +73,14 @@ export const ReceiptDetailModal: React.FC<ReceiptDetailModalProps> = ({
             <span>Timestamp: {new Date(receipt.timestamp).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}</span>
           </div>
 
+          {/* Dataset Provenance Badge */}
+          {receipt.details?.sourceDataset && (
+            <div className="flex items-center gap-2 text-xs text-amber-300/90 font-mono bg-amber-950/30 px-3 py-2 rounded-lg border border-amber-500/25 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+              <span>Extracted Source: {receipt.details.sourceDataset}</span>
+            </div>
+          )}
+
           {/* Type-Specific Details */}
           {receipt.details?.noteText && (
             <div className="p-4 bg-[#fcf8ec] text-neutral-900 rounded-xl font-mono text-xs whitespace-pre-line border border-amber-300/40">

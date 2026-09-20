@@ -1,0 +1,4502 @@
+[
+  {
+    "date": "20/09/2018 12:04:08",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "2 Place 5 to Place 0",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "20/09/2018 12:03:15",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Idli medu Vada mix 2 plates",
+    "amount": "60",
+    "currency": "INR"
+  },
+  {
+    "date": "19/09/2018",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Netflix",
+    "note": "1 month subscription",
+    "amount": "199",
+    "currency": "INR"
+  },
+  {
+    "date": "17/09/2018 23:41:17",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "19",
+    "currency": "INR"
+  },
+  {
+    "date": "16/09/2018 17:15:08",
+    "mode": "Cash",
+    "category": "Festivals",
+    "subcategory": "Ganesh Pujan",
+    "note": "Ganesh idol",
+    "amount": "251",
+    "currency": "INR"
+  },
+  {
+    "date": "15/09/2018 06:34:17",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Permanent Residence - Tata Play recharge",
+    "amount": "200",
+    "currency": "INR"
+  },
+  {
+    "date": "14/09/2018 05:39:17",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Place 2 station to Permanent Residence",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "13/09/2018 21:35:15",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "2 Place 0 to Place 3",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "13/09/2018 21:01:47",
+    "mode": "Credit Card",
+    "category": "Other",
+    "subcategory": "",
+    "note": "HBR 2 Months subscription",
+    "amount": "83",
+    "currency": "INR"
+  },
+  {
+    "date": "13/09/2018 21:01:32",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Grocery",
+    "note": "1kg atta",
+    "amount": "46",
+    "currency": "INR"
+  },
+  {
+    "date": "13/09/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small Cap fund 2",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/09/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small cap fund 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "12/9/2018",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "667",
+    "currency": "INR"
+  },
+  {
+    "date": "11/9/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Home Food Delivery",
+    "amount": "650",
+    "currency": "INR"
+  },
+  {
+    "date": "11/9/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "From Family",
+    "amount": "3500",
+    "currency": "INR"
+  },
+  {
+    "date": "11/9/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "10/9/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "8/9/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "7/9/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "37",
+    "currency": "INR"
+  },
+  {
+    "date": "7/9/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Equity Mutual Fund E",
+    "subcategory": "",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "6/9/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Amul butter",
+    "amount": "55",
+    "currency": "INR"
+  },
+  {
+    "date": "5/9/2018",
+    "mode": "Cash",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "11 clothes ironing",
+    "amount": "77",
+    "currency": "INR"
+  },
+  {
+    "date": "5/9/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Chinese Bhel",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "5/9/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Shev Puri",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "5/9/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "2 kachori",
+    "amount": "24",
+    "currency": "INR"
+  },
+  {
+    "date": "5/9/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "5/9/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "Bread",
+    "amount": "18",
+    "currency": "INR"
+  },
+  {
+    "date": "3/9/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "1/9/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Public Provident Fund",
+    "subcategory": "",
+    "note": "",
+    "amount": "12500",
+    "currency": "INR"
+  },
+  {
+    "date": "1/9/2018",
+    "mode": "Equity Mutual Fund B",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "31/08/2018 15:12:20",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "31/08/2018 15:12:20",
+    "mode": "Cash",
+    "category": "Gift",
+    "subcategory": "",
+    "note": "farewell contribution",
+    "amount": "118",
+    "currency": "INR"
+  },
+  {
+    "date": "31/08/2018 10:01:15",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Domino's Pizza",
+    "amount": "510.85",
+    "currency": "INR"
+  },
+  {
+    "date": "31/08/2018 09:27:28",
+    "mode": "Saving Bank account 1",
+    "category": "Salary",
+    "subcategory": "",
+    "note": "From workplace ",
+    "amount": "70255",
+    "currency": "INR"
+  },
+  {
+    "date": "31/08/2018 09:26:17",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "30/08/2018 21:10:24",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Sweets",
+    "note": "Warna Srikhand pav kg",
+    "amount": "78",
+    "currency": "INR"
+  },
+  {
+    "date": "30/08/2018 21:09:51",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "343",
+    "currency": "INR"
+  },
+  {
+    "date": "29/08/2018 12:21:49",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Grocery",
+    "note": "Baking soda",
+    "amount": "27",
+    "currency": "INR"
+  },
+  {
+    "date": "29/08/2018 12:21:49",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "chocobar",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "29/08/2018 12:11:41",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "28/08/2018 21:04:56",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Astral Stocks",
+    "amount": "6.75",
+    "currency": "INR"
+  },
+  {
+    "date": "28/08/2018 19:16:09",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Reliance Stocks",
+    "amount": "18",
+    "currency": "INR"
+  },
+  {
+    "date": "27/08/2018 21:30:16",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "curd",
+    "note": "Dahi 2 packets",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "27/08/2018 10:52:51",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "2 plates poha",
+    "amount": "60",
+    "currency": "INR"
+  },
+  {
+    "date": "27/08/2018 10:52:30",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Khari packet",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "27/08/2018 10:52:09",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "26/08/2018 21:04:46",
+    "mode": "Saving Bank account 1",
+    "category": "Interest",
+    "subcategory": "",
+    "note": "interest paid",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "25/08/2018 21:04:46",
+    "mode": "Cash",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "13 clothes ironing",
+    "amount": "91",
+    "currency": "INR"
+  },
+  {
+    "date": "24/08/2018 22:13:43",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Home Food Delivery",
+    "amount": "1120",
+    "currency": "INR"
+  },
+  {
+    "date": "24/08/2018 22:12:17",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "From Family",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "24/08/2018 20:20:37",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Rajgira ladu",
+    "note": "",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "24/08/2018 20:17:09",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "24/08/2018 13:34:14",
+    "mode": "Cash",
+    "category": "Festivals",
+    "subcategory": "Navratri",
+    "note": "Ganpati+ navratri vargani",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "23/08/2018 21:29:52",
+    "mode": "Credit Card",
+    "category": "Transportation",
+    "subcategory": "train",
+    "note": "2 Place 2 to Place 3 : Sevagram express 3AC",
+    "amount": "1305.4",
+    "currency": "INR"
+  },
+  {
+    "date": "23/08/2018 21:29:12",
+    "mode": "Credit Card",
+    "category": "Transportation",
+    "subcategory": "train",
+    "note": "2 Place 3 to Place 2 : Amritsar express 3AC",
+    "amount": "1205.4",
+    "currency": "INR"
+  },
+  {
+    "date": "23/08/2018 19:55:33",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "60",
+    "currency": "INR"
+  },
+  {
+    "date": "22/08/2018 22:31:36",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "37",
+    "currency": "INR"
+  },
+  {
+    "date": "22/08/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Life Insurance",
+    "subcategory": "",
+    "note": "",
+    "amount": "11043",
+    "currency": "INR"
+  },
+  {
+    "date": "21/08/2018 16:15:46",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "cutting chai",
+    "amount": "12",
+    "currency": "INR"
+  },
+  {
+    "date": "21/08/2018 16:15:20",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "19/08/2018",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Netflix",
+    "note": "1 month subscription",
+    "amount": "199",
+    "currency": "INR"
+  },
+  {
+    "date": "17/08/2018 20:06:32",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "curd",
+    "note": "Dahi 2 packets",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "17/08/2018 19:21:17",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "17/08/2018 12:40:28",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Pidilite Stocks",
+    "amount": "22",
+    "currency": "INR"
+  },
+  {
+    "date": "16/08/2018 19:08:01",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Permanent Residence - Tata Play recharge",
+    "amount": "157",
+    "currency": "INR"
+  },
+  {
+    "date": "15/08/2018 09:44:05",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Sweets",
+    "note": "Warna Srikhand half kg",
+    "amount": "290",
+    "currency": "INR"
+  },
+  {
+    "date": "15/08/2018 09:11:44",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "flour mill",
+    "note": "M D sure 4kg atta",
+    "amount": "216",
+    "currency": "INR"
+  },
+  {
+    "date": "14/08/2018 10:59:46",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "ITC Stocks",
+    "amount": "124",
+    "currency": "INR"
+  },
+  {
+    "date": "14/08/2018 10:04:52",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "14/08/2018 09:51:30",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Dahi",
+    "amount": "32",
+    "currency": "INR"
+  },
+  {
+    "date": "14/08/2018 09:50:12",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Toothpaste Patanjali",
+    "amount": "160",
+    "currency": "INR"
+  },
+  {
+    "date": "14/08/2018 09:48:42",
+    "mode": "Cash",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "8 clothes ironing",
+    "amount": "56",
+    "currency": "INR"
+  },
+  {
+    "date": "14/08/2018 09:46:54",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "Vanila family pack",
+    "amount": "115",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018 18:37:27",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Appliances",
+    "note": "5 litres can Distilled water",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018 18:36:01",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "home decor",
+    "note": "Brass Puja plate and diva",
+    "amount": "220",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018 18:35:18",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Grocery",
+    "note": "Half kg Lahsoon",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018 18:33:36",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "594",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018 10:04:36",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "Vanila cup",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018 10:04:23",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "chocobar",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small Cap fund 2",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/08/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small cap fund 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "11/8/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "8 kachori",
+    "amount": "96",
+    "currency": "INR"
+  },
+  {
+    "date": "10/8/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "35",
+    "currency": "INR"
+  },
+  {
+    "date": "7/8/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Equity Mutual Fund E",
+    "subcategory": "",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "6/8/2018",
+    "mode": "Cash",
+    "category": "Beauty",
+    "subcategory": "grooming",
+    "note": "hair cut",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "5/8/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "5/8/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "cutting chai",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "5/8/2018",
+    "mode": "Credit Card",
+    "category": "Health",
+    "subcategory": "Health",
+    "note": "eyewear Glasses payment remaining",
+    "amount": "4300",
+    "currency": "INR"
+  },
+  {
+    "date": "5/8/2018",
+    "mode": "Credit Card",
+    "category": "Apparel",
+    "subcategory": "Clothing",
+    "note": "For Family",
+    "amount": "3410",
+    "currency": "INR"
+  },
+  {
+    "date": "5/8/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "Place 0 to Place 4 return",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "5/8/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Current Residence to Place 0",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "5/8/2018",
+    "mode": "Credit Card",
+    "category": "Family",
+    "subcategory": "clothes",
+    "note": "Bows",
+    "amount": "398",
+    "currency": "INR"
+  },
+  {
+    "date": "3/8/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "From Family",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "3/8/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "3/8/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Redington Stocks",
+    "amount": "180",
+    "currency": "INR"
+  },
+  {
+    "date": "2/8/2018",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "18",
+    "currency": "INR"
+  },
+  {
+    "date": "2/8/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "flour mill",
+    "note": "M D sure 4kg atta",
+    "amount": "216",
+    "currency": "INR"
+  },
+  {
+    "date": "2/8/2018",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Health",
+    "note": "eyewear Glasses advance",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "1/8/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "1/8/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Public Provident Fund",
+    "subcategory": "",
+    "note": "",
+    "amount": "12500",
+    "currency": "INR"
+  },
+  {
+    "date": "1/8/2018",
+    "mode": "Equity Mutual Fund B",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "31/07/2018 21:52:08",
+    "mode": "Cash",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "13 clothes ironing",
+    "amount": "91",
+    "currency": "INR"
+  },
+  {
+    "date": "31/07/2018 18:01:20",
+    "mode": "Saving Bank account 1",
+    "category": "Money transfer",
+    "subcategory": "Home",
+    "note": "",
+    "amount": "30000",
+    "currency": "INR"
+  },
+  {
+    "date": "31/07/2018 13:45:08",
+    "mode": "Cash",
+    "category": "maid",
+    "subcategory": "",
+    "note": "July salary",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "31/07/2018 13:44:15",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "chocolate",
+    "note": "10 melody",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "31/07/2018 09:05:17",
+    "mode": "Saving Bank account 1",
+    "category": "Salary",
+    "subcategory": "",
+    "note": "From workplace ",
+    "amount": "70255",
+    "currency": "INR"
+  },
+  {
+    "date": "30/07/2018 18:44:23",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "Glucose D(50) + flora bc (40)+cyra 20(10)",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "30/07/2018 13:19:56",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "",
+    "amount": "132",
+    "currency": "INR"
+  },
+  {
+    "date": "30/07/2018 13:19:36",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "212",
+    "currency": "INR"
+  },
+  {
+    "date": "30/07/2018 11:49:11",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "1 plates poha",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "29/07/2018 19:29:54",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Eating out",
+    "note": "Paneer pizza",
+    "amount": "260",
+    "currency": "INR"
+  },
+  {
+    "date": "29/07/2018 15:52:47",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Decathlon Place A to Place A station",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "29/07/2018 11:39:53",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Current Residence to Place 0",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "29/07/2018 11:38:08",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "2 Place 0 to Place A returns",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "29/07/2018 10:12:59",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "Medu vada 3 plate",
+    "amount": "105",
+    "currency": "INR"
+  },
+  {
+    "date": "28/07/2018 23:42:57",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "200",
+    "currency": "INR"
+  },
+  {
+    "date": "28/07/2018 23:42:57",
+    "mode": "Debit Card",
+    "category": "Culture",
+    "subcategory": "Movie",
+    "note": "2 INOX ",
+    "amount": "481.36",
+    "currency": "INR"
+  },
+  {
+    "date": "28/07/2018 21:30:49",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "vegetables",
+    "note": "",
+    "amount": "195",
+    "currency": "INR"
+  },
+  {
+    "date": "28/07/2018 20:45:00",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "3750",
+    "currency": "INR"
+  },
+  {
+    "date": "27/07/2018 18:39:39",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "Demat account charges",
+    "amount": "826",
+    "currency": "INR"
+  },
+  {
+    "date": "26/07/2018 23:06:09",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Toast packet",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "26/07/2018 13:44:31",
+    "mode": "Saving Bank account 1",
+    "category": "Tax refund",
+    "subcategory": "",
+    "note": "",
+    "amount": "6780",
+    "currency": "INR"
+  },
+  {
+    "date": "23/07/2018 12:49:29",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Current Residence - Tata Play recharge",
+    "amount": "154",
+    "currency": "INR"
+  },
+  {
+    "date": "23/07/2018 12:33:32",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "4 plates poha",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "21/07/2018 19:02:36",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "368",
+    "currency": "INR"
+  },
+  {
+    "date": "21/07/2018 19:02:16",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "fruits",
+    "note": "Khajur pav kg",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "21/07/2018 18:37:38",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "2 Bhajipav + 2 vadapav",
+    "amount": "60",
+    "currency": "INR"
+  },
+  {
+    "date": "21/07/2018 08:42:11",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Toast packet",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "20/07/2018 19:59:46",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "chocobar",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "20/07/2018 19:59:08",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Potato",
+    "note": "potato 1kg",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "20/07/2018 19:58:46",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Onions",
+    "note": "onion 1 kg",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "20/07/2018 13:06:14",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "Taxi",
+    "note": "Ola cab - eye institute to Current Residence CHS",
+    "amount": "155",
+    "currency": "INR"
+  },
+  {
+    "date": "20/07/2018 12:29:28",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "Cataract Medicine",
+    "amount": "87",
+    "currency": "INR"
+  },
+  {
+    "date": "20/07/2018 09:11:48",
+    "mode": "Credit Card",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "Cataract Medicine",
+    "amount": "1048",
+    "currency": "INR"
+  },
+  {
+    "date": "19/07/2018 20:25:13",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "curd",
+    "note": "Dahi 4 packets",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "18/07/2018 20:26:03",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "flour mill",
+    "note": "M D sure 4kg atta",
+    "amount": "216",
+    "currency": "INR"
+  },
+  {
+    "date": "16/07/2018 17:51:56",
+    "mode": "Cash",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "12 clothes ironing",
+    "amount": "84",
+    "currency": "INR"
+  },
+  {
+    "date": "16/07/2018 10:43:53",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Hardware",
+    "note": "Sony WI-C100 earphones wireless",
+    "amount": "1190",
+    "currency": "INR"
+  },
+  {
+    "date": "16/07/2018 10:41:01",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "7 kachori",
+    "amount": "84",
+    "currency": "INR"
+  },
+  {
+    "date": "15/07/2018 19:12:57",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "fruits",
+    "note": "",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "15/07/2018 18:01:59",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "vegetables",
+    "note": "",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "15/07/2018 09:41:01",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "4 kachori",
+    "amount": "48",
+    "currency": "INR"
+  },
+  {
+    "date": "14/07/2018 18:10:13",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "CA  - income tax filing",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/07/2018 14:02:44",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "Taxi",
+    "note": "Ola cab - eye institute to Current Residence CHS",
+    "amount": "188",
+    "currency": "INR"
+  },
+  {
+    "date": "13/07/2018 09:36:19",
+    "mode": "Credit Card",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "Cataract Medicine",
+    "amount": "1358",
+    "currency": "INR"
+  },
+  {
+    "date": "13/07/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small Cap fund 2",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/07/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small cap fund 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "12/7/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Eggs",
+    "note": "6 eggs",
+    "amount": "35",
+    "currency": "INR"
+  },
+  {
+    "date": "11/7/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Bread",
+    "note": "2 bread packets",
+    "amount": "57",
+    "currency": "INR"
+  },
+  {
+    "date": "10/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Tata Steel Stocks",
+    "amount": "180",
+    "currency": "INR"
+  },
+  {
+    "date": "9/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Petrol",
+    "note": "3.4 Lit Petrol",
+    "amount": "360",
+    "currency": "INR"
+  },
+  {
+    "date": "9/7/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Toast packet",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "9/7/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Grocery",
+    "note": "Shev bhaji sev pav kg",
+    "amount": "60",
+    "currency": "INR"
+  },
+  {
+    "date": "8/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Taxi",
+    "note": "Ola cab - eye institute to Current Residence CHS",
+    "amount": "185",
+    "currency": "INR"
+  },
+  {
+    "date": "8/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "3 cutting chai",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "8/7/2018",
+    "mode": "Credit Card",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "eye drop",
+    "amount": "153",
+    "currency": "INR"
+  },
+  {
+    "date": "8/7/2018",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Hospital",
+    "note": "Hospital consultation",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "8/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Taxi",
+    "note": "Ola cab - Current Residence CHS to eye institute",
+    "amount": "130",
+    "currency": "INR"
+  },
+  {
+    "date": "8/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "Taxi",
+    "note": "To and Fro Cab Fare Contribution",
+    "amount": "675",
+    "currency": "INR"
+  },
+  {
+    "date": "7/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "Place 4 to Place 0",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "7/7/2018",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "At restaurant",
+    "amount": "2",
+    "currency": "INR"
+  },
+  {
+    "date": "7/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mahanagar Gas",
+    "note": "",
+    "amount": "196",
+    "currency": "INR"
+  },
+  {
+    "date": "7/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Equity Mutual Fund E",
+    "subcategory": "",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "6/7/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "At restaurant",
+    "amount": "760",
+    "currency": "INR"
+  },
+  {
+    "date": "6/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Taxi",
+    "note": "Park Inn Goa",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "5/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Terminal 1 to Terminal 2",
+    "amount": "83",
+    "currency": "INR"
+  },
+  {
+    "date": "5/7/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "cutting chai",
+    "amount": "7",
+    "currency": "INR"
+  },
+  {
+    "date": "5/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Current Residence to Place 0",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "5/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "Place 0 to Place P",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "4/7/2018",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Hospital",
+    "note": "Doctor Fees",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "4/7/2018",
+    "mode": "Cash",
+    "category": "Beauty",
+    "subcategory": "grooming",
+    "note": "Shaving",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "4/7/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "350",
+    "currency": "INR"
+  },
+  {
+    "date": "4/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Health",
+    "subcategory": "Lab Tests",
+    "note": "2 Thyroid (1000) + cholesterol (220) + uric acid (220)",
+    "amount": "1440",
+    "currency": "INR"
+  },
+  {
+    "date": "3/7/2018",
+    "mode": "Cash",
+    "category": "maid",
+    "subcategory": "",
+    "note": "",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "3/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "3/7/2018",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Current Residence - Tata Play recharge",
+    "amount": "154",
+    "currency": "INR"
+  },
+  {
+    "date": "3/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Infosys Stocks",
+    "amount": "52.5",
+    "currency": "INR"
+  },
+  {
+    "date": "3/7/2018",
+    "mode": "Equity Mutual Fund B",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "2/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "1595",
+    "currency": "INR"
+  },
+  {
+    "date": "2/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Place 1 bridge to Current Residence 2 seats",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "2/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Bus",
+    "note": "2 Place 6 Stand to MS",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "2/7/2018",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "home decor",
+    "note": "Face towels + shampoo",
+    "amount": "626",
+    "currency": "INR"
+  },
+  {
+    "date": "2/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Bus",
+    "note": "2 Place 1 to  mall",
+    "amount": "26",
+    "currency": "INR"
+  },
+  {
+    "date": "2/7/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Current Residence to Place 1 bus stop highway",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Debit Card",
+    "category": "Culture",
+    "subcategory": "Movie",
+    "note": "2 PVR ",
+    "amount": "461",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Credit Card",
+    "category": "Transportation",
+    "subcategory": "Travels",
+    "note": "2 Place 2 to Place 1 - Shree Sharma Travels",
+    "amount": "1890",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Vadapav",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Apparel",
+    "subcategory": "Clothing",
+    "note": "undergarments pair of Jockey",
+    "amount": "430",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Cash",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "clothes ironing",
+    "amount": "98",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Public Provident Fund",
+    "subcategory": "",
+    "note": "",
+    "amount": "12500",
+    "currency": "INR"
+  },
+  {
+    "date": "1/7/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Money transfer",
+    "subcategory": "Home",
+    "note": "",
+    "amount": "10000",
+    "currency": "INR"
+  },
+  {
+    "date": "30/06/2018 18:47:45",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Appliances",
+    "note": "Aqugurad PRV",
+    "amount": "1200",
+    "currency": "INR"
+  },
+  {
+    "date": "30/06/2018 08:45:37",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Asian paints Stocks",
+    "amount": "43",
+    "currency": "INR"
+  },
+  {
+    "date": "30/06/2018 08:45:18",
+    "mode": "Saving Bank account 1",
+    "category": "Interest",
+    "subcategory": "",
+    "note": "interest paid",
+    "amount": "342",
+    "currency": "INR"
+  },
+  {
+    "date": "30/06/2018 08:44:48",
+    "mode": "Saving Bank account 1",
+    "category": "Salary",
+    "subcategory": "",
+    "note": "From workplace ",
+    "amount": "65122",
+    "currency": "INR"
+  },
+  {
+    "date": "29/06/2018 17:01:00",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "HUL Stocks",
+    "amount": "44",
+    "currency": "INR"
+  },
+  {
+    "date": "29/06/2018 16:13:02",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Hardware",
+    "note": "Tulsi plant+ pot",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "29/06/2018 16:10:41",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kitchen",
+    "note": "Math tap repair",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "29/06/2018 15:28:46",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Appliances",
+    "note": "3 bulbs 3 pencil cells",
+    "amount": "270",
+    "currency": "INR"
+  },
+  {
+    "date": "28/06/2018 20:44:36",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Home Food Delivery",
+    "amount": "455",
+    "currency": "INR"
+  },
+  {
+    "date": "28/06/2018 18:35:52",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Bhaji + vadapav + kachori+ tea",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "28/06/2018 15:06:59",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Taxi",
+    "note": "Vadala road to Nehru Planetarium",
+    "amount": "228",
+    "currency": "INR"
+  },
+  {
+    "date": "28/06/2018 10:08:21",
+    "mode": "Credit Card",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "note": "Mast & Harbour Slides",
+    "amount": "64.82",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 21:32:27",
+    "mode": "Credit Card",
+    "category": "Tourism",
+    "subcategory": "Entry Fees",
+    "note": "Planetarium",
+    "amount": "308.85",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 19:11:09",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "From Family",
+    "amount": "3000",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 18:53:54",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "2 cups",
+    "amount": "14",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 18:48:45",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "gadgets",
+    "note": "Mobile cover real mi note pro",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 18:46:33",
+    "mode": "Credit Card",
+    "category": "Other",
+    "subcategory": "",
+    "note": "Shopping at Alfa",
+    "amount": "4720",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 18:46:48",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "gadgets",
+    "note": "Mouse pad",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 18:43:23",
+    "mode": "Credit Card",
+    "category": "Apparel",
+    "subcategory": "Accessories",
+    "note": "Purse",
+    "amount": "450",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 18:19:27",
+    "mode": "Credit Card",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "note": "Rainy season chappal",
+    "amount": "550",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 18:18:28",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Place P station to Alfa market",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 14:00:32",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "2 Place 0 to Place P return",
+    "amount": "80",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 13:59:52",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "2 Current Residence to Place 0",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "27/06/2018 06:30:08",
+    "mode": "Share Market Trading",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "Refund",
+    "amount": "2549.59",
+    "currency": "INR"
+  },
+  {
+    "date": "26/06/2018 19:47:42",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "2 Place 0 to Current Residence",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "26/06/2018 19:47:42",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "1990",
+    "currency": "INR"
+  },
+  {
+    "date": "26/06/2018 17:25:23",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Appliances",
+    "note": "Aqugurad water purifier",
+    "amount": "13050",
+    "currency": "INR"
+  },
+  {
+    "date": "26/06/2018 12:49:54",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Hardware",
+    "note": "Umbrella handle repair",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "26/06/2018 11:47:08",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "Place 0 to Place 4 return",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "26/06/2018 11:45:49",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "2 cutting chai",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "26/06/2018 11:44:48",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Bhaji + vadapav",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "25/06/2018 15:09:49",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Home Food Delivery",
+    "amount": "320",
+    "currency": "INR"
+  },
+  {
+    "date": "25/06/2018 14:23:22",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Smart point",
+    "amount": "2074",
+    "currency": "INR"
+  },
+  {
+    "date": "24/06/2018 16:11:39",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "2 Place 0 to Current Residence",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "24/06/2018 16:11:17",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "Bread",
+    "amount": "18",
+    "currency": "INR"
+  },
+  {
+    "date": "24/06/2018 16:11:07",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "24/06/2018 14:37:00",
+    "mode": "Credit Card",
+    "category": "Health",
+    "subcategory": "Health",
+    "note": "Suppliemnts",
+    "amount": "211.75",
+    "currency": "INR"
+  },
+  {
+    "date": "24/06/2018 13:31:06",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "2 Place 5 to Place 0",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "24/06/2018 11:29:20",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Permanent Residence - Tata Play recharge",
+    "amount": "157",
+    "currency": "INR"
+  },
+  {
+    "date": "24/06/2018 11:00:13",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "2 Vadapav 2 samosa pav",
+    "amount": "60",
+    "currency": "INR"
+  },
+  {
+    "date": "23/06/2018 19:25:22",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Annual recharge",
+    "amount": "2545",
+    "currency": "INR"
+  },
+  {
+    "date": "23/06/2018 10:15:35",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "22/06/2018 15:32:22",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "181",
+    "currency": "INR"
+  },
+  {
+    "date": "19/06/2018 13:24:01",
+    "mode": "Saving Bank account 1",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "19/06/2018 10:25:47",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "18/06/2018 22:18:59",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "16/06/2018 09:01:39",
+    "mode": "Saving Bank account 1",
+    "category": "Share Market",
+    "subcategory": "",
+    "note": "",
+    "amount": "8500",
+    "currency": "INR"
+  },
+  {
+    "date": "15/06/2018 21:19:39",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "15/06/2018 09:24:33",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "train",
+    "note": "2CC Place 2 to DDR Spl Train",
+    "amount": "1213.6",
+    "currency": "INR"
+  },
+  {
+    "date": "13/06/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small Cap fund 2",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/06/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small cap fund 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "11/6/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Eggs",
+    "note": "12 eggs",
+    "amount": "84",
+    "currency": "INR"
+  },
+  {
+    "date": "11/6/2018",
+    "mode": "Credit Card",
+    "category": "Self-development",
+    "subcategory": "",
+    "note": "Marathon",
+    "amount": "1407",
+    "currency": "INR"
+  },
+  {
+    "date": "10/6/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "home decor",
+    "note": "Sofa covers",
+    "amount": "3000",
+    "currency": "INR"
+  },
+  {
+    "date": "9/6/2018",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "667",
+    "currency": "INR"
+  },
+  {
+    "date": "7/6/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Equity Mutual Fund E",
+    "subcategory": "",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "1/6/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Public Provident Fund",
+    "subcategory": "",
+    "note": "",
+    "amount": "12500",
+    "currency": "INR"
+  },
+  {
+    "date": "1/6/2018",
+    "mode": "Equity Mutual Fund B",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "31/05/2018 08:47:33",
+    "mode": "Saving Bank account 1",
+    "category": "Salary",
+    "subcategory": "",
+    "note": "From workplace ",
+    "amount": "65134",
+    "currency": "INR"
+  },
+  {
+    "date": "30/05/2018 07:42:56",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "HDFC Stocks",
+    "amount": "88",
+    "currency": "INR"
+  },
+  {
+    "date": "28/05/2018 14:11:17",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "28/05/2018 10:41:59",
+    "mode": "Cash",
+    "category": "Beauty",
+    "subcategory": "grooming",
+    "note": "hair cut",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "27/05/2018 10:50:10",
+    "mode": "Saving Bank account 2",
+    "category": "Interest",
+    "subcategory": "",
+    "note": "interest paid",
+    "amount": "28",
+    "currency": "INR"
+  },
+  {
+    "date": "27/05/2018 10:50:10",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Soap + dahya pav kg",
+    "amount": "75",
+    "currency": "INR"
+  },
+  {
+    "date": "26/05/2018 07:55:09",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Permanent Residence to Motor Driving school",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "24/05/2018 09:04:01",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "667",
+    "currency": "INR"
+  },
+  {
+    "date": "23/05/2018 21:20:18",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Permanent Residence - Tata Play recharge",
+    "amount": "166",
+    "currency": "INR"
+  },
+  {
+    "date": "22/05/2018 20:47:36",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Health",
+    "note": "2 All out refill",
+    "amount": "154",
+    "currency": "INR"
+  },
+  {
+    "date": "22/05/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Life Insurance",
+    "subcategory": "",
+    "note": "",
+    "amount": "11043",
+    "currency": "INR"
+  },
+  {
+    "date": "21/05/2018 14:06:05",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "140",
+    "currency": "INR"
+  },
+  {
+    "date": "20/05/2018 14:06:20",
+    "mode": "Saving Bank account 1",
+    "category": "Family",
+    "subcategory": "misc",
+    "note": "Soap, shampoo, razor",
+    "amount": "122",
+    "currency": "INR"
+  },
+  {
+    "date": "19/05/2018 19:26:19",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kitchen",
+    "note": "flour mill",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "19/05/2018 15:17:18",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "18/05/2018 15:35:49",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "301",
+    "currency": "INR"
+  },
+  {
+    "date": "15/05/2018 20:11:58",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "Cookies & cream family pack",
+    "amount": "135",
+    "currency": "INR"
+  },
+  {
+    "date": "15/05/2018 20:11:12",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "within city",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "15/05/2018 20:10:10",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Appliances",
+    "note": "LG Washing Machine",
+    "amount": "21500",
+    "currency": "INR"
+  },
+  {
+    "date": "15/05/2018 18:43:55",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Permanent Residence to GH road",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 23:09:55",
+    "mode": "Saving Bank account 1",
+    "category": "Amazon pay cashback",
+    "subcategory": "",
+    "note": "",
+    "amount": "21",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 23:08:45",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mobile Service Provider",
+    "note": "Data booster pack",
+    "amount": "301",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 22:49:32",
+    "mode": "Cash",
+    "category": "Other",
+    "subcategory": "",
+    "note": "Digilock room charges",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 22:49:07",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "Place 2 station to Permanent Residence",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 18:01:15",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Potato chips",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 12:55:41",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "fruits",
+    "note": "2 dozens mango + 1kg litchi",
+    "amount": "1250",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 09:47:57",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "2 Place 0 to Place 3",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "14/05/2018 09:47:13",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "auto",
+    "note": "2 Current Residence to Place 0",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "13/05/2018 20:18:01",
+    "mode": "Cash",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "clothes ironing",
+    "amount": "77",
+    "currency": "INR"
+  },
+  {
+    "date": "13/05/2018 20:16:54",
+    "mode": "Cash",
+    "category": "Education",
+    "subcategory": "Stationary",
+    "note": "Gel pen Refills",
+    "amount": "12",
+    "currency": "INR"
+  },
+  {
+    "date": "13/05/2018 00:06:05",
+    "mode": "Cash",
+    "category": "scrap",
+    "subcategory": "",
+    "note": "",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "13/05/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small Cap fund 2",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/05/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small cap fund 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "12/5/2018",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Domino's Pizza",
+    "amount": "437",
+    "currency": "INR"
+  },
+  {
+    "date": "12/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "12/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "4 kachori",
+    "amount": "48",
+    "currency": "INR"
+  },
+  {
+    "date": "12/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "11/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Rajgira ladu",
+    "note": "1 packet",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "10/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "2 Faluda",
+    "amount": "80",
+    "currency": "INR"
+  },
+  {
+    "date": "10/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "NEFT from Big Share Services",
+    "amount": "947",
+    "currency": "INR"
+  },
+  {
+    "date": "9/5/2018",
+    "mode": "Cash",
+    "category": "subscription",
+    "subcategory": "Newspaper",
+    "note": "Mata + TOI + ET",
+    "amount": "12",
+    "currency": "INR"
+  },
+  {
+    "date": "9/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Toast packet",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "9/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "9/5/2018",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Netflix",
+    "note": "",
+    "amount": "199",
+    "currency": "INR"
+  },
+  {
+    "date": "8/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Sweets",
+    "note": "Kaju katli half kg",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "8/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "8/5/2018",
+    "mode": "Cash",
+    "category": "Beauty",
+    "subcategory": "grooming",
+    "note": "Shaving",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "7/5/2018",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Toiletries",
+    "note": "Handwash container2 + window cleaner",
+    "amount": "1086",
+    "currency": "INR"
+  },
+  {
+    "date": "7/5/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Bike",
+    "note": "Mall parking",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "7/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mahanagar Gas",
+    "note": "",
+    "amount": "515",
+    "currency": "INR"
+  },
+  {
+    "date": "7/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Home Food Delivery",
+    "amount": "430",
+    "currency": "INR"
+  },
+  {
+    "date": "7/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "7/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Equity Mutual Fund E",
+    "subcategory": "",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "6/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "From Family",
+    "amount": "3000",
+    "currency": "INR"
+  },
+  {
+    "date": "5/5/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "600",
+    "currency": "INR"
+  },
+  {
+    "date": "4/5/2018",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "37",
+    "currency": "INR"
+  },
+  {
+    "date": "4/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "3/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Bhaji + vadapav",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "2/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "fruits",
+    "note": "Mango 1.5 kg",
+    "amount": "280",
+    "currency": "INR"
+  },
+  {
+    "date": "1/5/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "1/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "ITone eye drops",
+    "amount": "43",
+    "currency": "INR"
+  },
+  {
+    "date": "1/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "Refresh Tears Drop",
+    "amount": "122",
+    "currency": "INR"
+  },
+  {
+    "date": "1/5/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "260",
+    "currency": "INR"
+  },
+  {
+    "date": "1/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Public Provident Fund",
+    "subcategory": "",
+    "note": "",
+    "amount": "12500",
+    "currency": "INR"
+  },
+  {
+    "date": "1/5/2018",
+    "mode": "Equity Mutual Fund B",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "1/5/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Money transfer",
+    "subcategory": "Home",
+    "note": "",
+    "amount": "10000",
+    "currency": "INR"
+  },
+  {
+    "date": "30/04/2018 18:25:28",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "6 kachori",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "30/04/2018 18:25:08",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "165",
+    "currency": "INR"
+  },
+  {
+    "date": "30/04/2018 09:56:14",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Current Residence - Tata Play recharge",
+    "amount": "176",
+    "currency": "INR"
+  },
+  {
+    "date": "30/04/2018 09:48:34",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Toast packet",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "30/04/2018 09:48:07",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "30/04/2018 06:32:57",
+    "mode": "Cash",
+    "category": "Gift",
+    "subcategory": "",
+    "note": "To Family",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "29/04/2018 18:28:10",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "beverage",
+    "note": "2 sugarcane juice",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "29/04/2018 09:36:56",
+    "mode": "Saving Bank account 1",
+    "category": "Salary",
+    "subcategory": "",
+    "note": "From workplace ",
+    "amount": "65134",
+    "currency": "INR"
+  },
+  {
+    "date": "28/04/2018 21:03:59",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Home Food Delivery",
+    "amount": "413",
+    "currency": "INR"
+  },
+  {
+    "date": "28/04/2018 10:04:35",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "27/04/2018 18:30:51",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "295",
+    "currency": "INR"
+  },
+  {
+    "date": "26/04/2018 20:44:20",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Noodles packet",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "26/04/2018 20:44:50",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "26/04/2018 11:30:19",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "25/04/2018 18:28:39",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "24/04/2018 22:24:28",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Permanent Residence - Tata Play recharge",
+    "amount": "157",
+    "currency": "INR"
+  },
+  {
+    "date": "23/04/2018 18:21:36",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Idli pith 1kg",
+    "amount": "38",
+    "currency": "INR"
+  },
+  {
+    "date": "23/04/2018 15:22:30",
+    "mode": "Cash",
+    "category": "maid",
+    "subcategory": "",
+    "note": "",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "22/04/2018 21:03:30",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "vegetables",
+    "note": "",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "22/04/2018 12:35:39",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "190",
+    "currency": "INR"
+  },
+  {
+    "date": "22/04/2018 12:35:28",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "21/04/2018 23:15:33",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "Naturals",
+    "amount": "160",
+    "currency": "INR"
+  },
+  {
+    "date": "21/04/2018 21:15:07",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "curd",
+    "note": "Dahi 2 packets",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "20/04/2018 20:39:57",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Sugaran Kitchen",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "19/04/2018 20:13:20",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kitchen",
+    "note": "flour mill",
+    "amount": "14",
+    "currency": "INR"
+  },
+  {
+    "date": "19/04/2018 09:55:08",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Eggs",
+    "note": "6 eggs",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "19/04/2018 09:54:53",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "17/04/2018 09:04:44",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "16/04/2018 22:40:53",
+    "mode": "Saving Bank account 1",
+    "category": "Education",
+    "subcategory": "Stationary",
+    "note": "3 Pens",
+    "amount": "21",
+    "currency": "INR"
+  },
+  {
+    "date": "16/04/2018 20:58:57",
+    "mode": "Saving Bank account 1",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "clothes ironing",
+    "amount": "63",
+    "currency": "INR"
+  },
+  {
+    "date": "16/04/2018 20:55:46",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Cockroach injection",
+    "amount": "270",
+    "currency": "INR"
+  },
+  {
+    "date": "16/04/2018 18:26:44",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "265",
+    "currency": "INR"
+  },
+  {
+    "date": "16/04/2018 18:26:06",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Smart point",
+    "amount": "450",
+    "currency": "INR"
+  },
+  {
+    "date": "15/04/2018 19:07:49",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "pav Bhaji",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "15/04/2018 19:07:30",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "2 cutting chai",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "15/04/2018 19:06:45",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kitchen",
+    "note": "Vessels for sugar, coffee and tea",
+    "amount": "799",
+    "currency": "INR"
+  },
+  {
+    "date": "15/04/2018 14:40:22",
+    "mode": "Credit Card",
+    "category": "Family",
+    "subcategory": "makeup",
+    "note": "Body mist",
+    "amount": "525",
+    "currency": "INR"
+  },
+  {
+    "date": "15/04/2018 14:40:08",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Bike",
+    "note": "Station Parking",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "15/04/2018 14:39:37",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "Place 0 to Place 4 return",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "15/04/2018 14:38:43",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "14/04/2018 22:27:04",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "107",
+    "currency": "INR"
+  },
+  {
+    "date": "14/04/2018 22:24:43",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Grocery",
+    "note": "Pizza base packet 2",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "14/04/2018 06:31:35",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Khari packet",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "14/04/2018 06:31:14",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "13/04/2018 20:34:03",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Lab Tests",
+    "note": "Family Thyroid Test + CBC",
+    "amount": "700",
+    "currency": "INR"
+  },
+  {
+    "date": "13/04/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small Cap fund 2",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/04/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small cap fund 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "12/4/2018",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Netflix",
+    "note": "",
+    "amount": "199",
+    "currency": "INR"
+  },
+  {
+    "date": "12/4/2018",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "",
+    "amount": "112",
+    "currency": "INR"
+  },
+  {
+    "date": "12/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Pattice",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "12/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "130",
+    "currency": "INR"
+  },
+  {
+    "date": "10/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "Bread",
+    "amount": "18",
+    "currency": "INR"
+  },
+  {
+    "date": "10/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "70",
+    "currency": "INR"
+  },
+  {
+    "date": "10/4/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Gift",
+    "subcategory": "",
+    "note": "farewell contribution",
+    "amount": "250",
+    "currency": "INR"
+  },
+  {
+    "date": "9/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Grocery",
+    "note": "Ginger",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "9/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "7/4/2018",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "1857",
+    "currency": "INR"
+  },
+  {
+    "date": "7/4/2018",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Pav kg chana dal",
+    "amount": "24",
+    "currency": "INR"
+  },
+  {
+    "date": "7/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "7/4/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Equity Mutual Fund E",
+    "subcategory": "",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "6/4/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Money transfer",
+    "subcategory": "Home",
+    "note": "",
+    "amount": "24500",
+    "currency": "INR"
+  },
+  {
+    "date": "5/4/2018",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Idli pith 1kg",
+    "amount": "38",
+    "currency": "INR"
+  },
+  {
+    "date": "5/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Eggs",
+    "note": "6 eggs",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "5/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "5/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "130",
+    "currency": "INR"
+  },
+  {
+    "date": "3/4/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Public Provident Fund",
+    "subcategory": "",
+    "note": "",
+    "amount": "12500",
+    "currency": "INR"
+  },
+  {
+    "date": "3/4/2018",
+    "mode": "Equity Mutual Fund B",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "2/4/2018",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Bike",
+    "note": "Mall parking",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "2/4/2018",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Hardware",
+    "note": "Window cleaner",
+    "amount": "149",
+    "currency": "INR"
+  },
+  {
+    "date": "2/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Grocery",
+    "note": "Pav kg Lahsoon",
+    "amount": "24",
+    "currency": "INR"
+  },
+  {
+    "date": "2/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "curd",
+    "note": "Dahi 2 packets",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "2/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Onions",
+    "note": "onion 2 kg",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "2/4/2018",
+    "mode": "Cash",
+    "category": "maid",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "1/4/2018",
+    "mode": "Saving Bank account 2",
+    "category": "Interest",
+    "subcategory": "",
+    "note": "interest paid",
+    "amount": "345",
+    "currency": "INR"
+  },
+  {
+    "date": "1/4/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "ATM charge",
+    "amount": "5.9",
+    "currency": "INR"
+  },
+  {
+    "date": "1/4/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "ATM charge",
+    "amount": "24.78",
+    "currency": "INR"
+  },
+  {
+    "date": "1/4/2018",
+    "mode": "Saving Bank account 2",
+    "category": "Interest",
+    "subcategory": "",
+    "note": "interest paid",
+    "amount": "345.15",
+    "currency": "INR"
+  },
+  {
+    "date": "1/4/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "1/4/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Money transfer",
+    "subcategory": "Home",
+    "note": "",
+    "amount": "10005.9",
+    "currency": "INR"
+  },
+  {
+    "date": "31/03/2018 21:39:12",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "2 chocobar",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "31/03/2018 19:45:07",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Home Food Delivery",
+    "amount": "244",
+    "currency": "INR"
+  },
+  {
+    "date": "31/03/2018 14:48:02",
+    "mode": "Saving Bank account 1",
+    "category": "Salary",
+    "subcategory": "",
+    "note": "From workplace ",
+    "amount": "64636",
+    "currency": "INR"
+  },
+  {
+    "date": "31/03/2018 13:20:18",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Domino's Pizza",
+    "amount": "419",
+    "currency": "INR"
+  },
+  {
+    "date": "31/03/2018 11:32:03",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "Bike",
+    "note": "Station Parking",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "31/03/2018 07:36:40",
+    "mode": "Saving Bank account 1",
+    "category": "Interest",
+    "subcategory": "",
+    "note": "interest paid",
+    "amount": "589",
+    "currency": "INR"
+  },
+  {
+    "date": "31/03/2018 07:26:26",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "Place 0 to Sion returns",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "30/03/2018 20:10:12",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "1 Panipuri",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "30/03/2018 11:27:41",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "vegetables",
+    "note": "Ginger + green chilli",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "30/03/2018 11:27:33",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "29/03/2018 20:10:25",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "At restaurant",
+    "amount": "1234",
+    "currency": "INR"
+  },
+  {
+    "date": "27/03/2018 19:58:24",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "Bread",
+    "amount": "35",
+    "currency": "INR"
+  },
+  {
+    "date": "26/03/2018 13:05:30",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "26/03/2018 09:55:55",
+    "mode": "Credit Card",
+    "category": "subscription",
+    "subcategory": "Tata Sky",
+    "note": "Permanent Residence - Tata Play recharge",
+    "amount": "157",
+    "currency": "INR"
+  },
+  {
+    "date": "25/03/2018 22:20:31",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "Marico Stocks",
+    "amount": "40.5",
+    "currency": "INR"
+  },
+  {
+    "date": "25/03/2018 21:14:42",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Bike",
+    "note": "Station Parking",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "25/03/2018 21:14:08",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Popcorn family pack",
+    "amount": "25",
+    "currency": "INR"
+  },
+  {
+    "date": "25/03/2018 21:13:44",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "2 tea",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "25/03/2018 21:13:19",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "2 Frankie",
+    "amount": "160",
+    "currency": "INR"
+  },
+  {
+    "date": "25/03/2018 21:12:38",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "French crossiant",
+    "amount": "80",
+    "currency": "INR"
+  },
+  {
+    "date": "25/03/2018 21:12:00",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "IKEA tea 3",
+    "amount": "240",
+    "currency": "INR"
+  },
+  {
+    "date": "23/03/2018 19:48:39",
+    "mode": "Cash",
+    "category": "Culture",
+    "subcategory": "Books",
+    "note": "Finding next Job",
+    "amount": "100",
+    "currency": "INR"
+  },
+  {
+    "date": "22/03/2018 22:30:49",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "flour mill",
+    "note": "1 kg Bajari",
+    "amount": "7",
+    "currency": "INR"
+  },
+  {
+    "date": "22/03/2018 22:30:20",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "vegetables",
+    "note": "Half kg tomato",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "22/03/2018 20:13:48",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "153",
+    "currency": "INR"
+  },
+  {
+    "date": "22/03/2018 19:31:37",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Pickle",
+    "amount": "150",
+    "currency": "INR"
+  },
+  {
+    "date": "22/03/2018 19:31:16",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Potato chips",
+    "amount": "150",
+    "currency": "INR"
+  },
+  {
+    "date": "22/03/2018 12:50:18",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Rajgira ladu",
+    "note": "1 packet",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "22/03/2018 12:47:34",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "milk 1lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "21/03/2018 23:13:13",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "2 kachori",
+    "amount": "24",
+    "currency": "INR"
+  },
+  {
+    "date": "21/03/2018 18:41:45",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Idli pith 1kg",
+    "amount": "38",
+    "currency": "INR"
+  },
+  {
+    "date": "21/03/2018 17:26:41",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "20/03/2018 20:13:08",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "2 Fried rice",
+    "amount": "246",
+    "currency": "INR"
+  },
+  {
+    "date": "20/03/2018 16:30:07",
+    "mode": "Saving Bank account 2",
+    "category": "Other",
+    "subcategory": "",
+    "note": "",
+    "amount": "17",
+    "currency": "INR"
+  },
+  {
+    "date": "20/03/2018 16:26:08",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Chicken lollypop 8 pcs",
+    "amount": "215.75",
+    "currency": "INR"
+  },
+  {
+    "date": "20/03/2018 16:15:59",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "breakfast",
+    "note": "Bread",
+    "amount": "18",
+    "currency": "INR"
+  },
+  {
+    "date": "20/03/2018 16:15:41",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Eggs",
+    "note": "6 eggs",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "20/03/2018 16:15:16",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 20:40:33",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Bike",
+    "note": "Station Parking",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 18:57:34",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Dabeli",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 18:47:54",
+    "mode": "Credit Card",
+    "category": "Family",
+    "subcategory": "clothes",
+    "note": "Trouser",
+    "amount": "799",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 18:41:33",
+    "mode": "Credit Card",
+    "category": "Family",
+    "subcategory": "clothes",
+    "note": "Belt + bow",
+    "amount": "498",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 17:16:44",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "Papad packet",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 17:16:27",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "1 Panipuri",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 17:16:09",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Tea",
+    "note": "cutting chai",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "18/03/2018 16:16:21",
+    "mode": "Cash",
+    "category": "Transportation",
+    "subcategory": "Train",
+    "note": "Place 0 to Place 4 return",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "17/03/2018 22:50:45",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "17/03/2018 13:13:18",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "37",
+    "currency": "INR"
+  },
+  {
+    "date": "15/03/2018 16:27:45",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "60",
+    "currency": "INR"
+  },
+  {
+    "date": "15/03/2018 16:27:45",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "14/03/2018 21:39:40",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Mayonnaise + cheese cubes",
+    "amount": "140",
+    "currency": "INR"
+  },
+  {
+    "date": "14/03/2018 21:38:13",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Onions",
+    "note": "onion 2 kg",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "14/03/2018 06:04:18",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Domino's Pizza",
+    "amount": "578",
+    "currency": "INR"
+  },
+  {
+    "date": "14/03/2018 06:03:35",
+    "mode": "Share Market Trading",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "Unused funds",
+    "amount": "42.88",
+    "currency": "INR"
+  },
+  {
+    "date": "13/03/2018 12:39:40",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "480",
+    "currency": "INR"
+  },
+  {
+    "date": "13/03/2018 09:27:56",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "13/03/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small Cap fund 2",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "13/03/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Small cap fund 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "5000",
+    "currency": "INR"
+  },
+  {
+    "date": "12/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Transportation",
+    "subcategory": "train",
+    "note": "2 Place 3 to Place 2 : Sevagram express 3AC",
+    "amount": "1293",
+    "currency": "INR"
+  },
+  {
+    "date": "10/3/2018",
+    "mode": "Cash",
+    "category": "Household",
+    "subcategory": "Hardware",
+    "note": "Mosquito Racket",
+    "amount": "300",
+    "currency": "INR"
+  },
+  {
+    "date": "10/3/2018",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Health",
+    "note": "All out refill",
+    "amount": "77",
+    "currency": "INR"
+  },
+  {
+    "date": "10/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "1 lit ",
+    "amount": "72",
+    "currency": "INR"
+  },
+  {
+    "date": "10/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "8/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Apparel",
+    "subcategory": "Laundry",
+    "note": "clothes ironing",
+    "amount": "91",
+    "currency": "INR"
+  },
+  {
+    "date": "8/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Bread",
+    "note": "Flatbread 12 pcs",
+    "amount": "40",
+    "currency": "INR"
+  },
+  {
+    "date": "8/3/2018",
+    "mode": "Cash",
+    "category": "Petty cash",
+    "subcategory": "",
+    "note": "From Family",
+    "amount": "500",
+    "currency": "INR"
+  },
+  {
+    "date": "8/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "subscription",
+    "subcategory": "Mahanagar Gas",
+    "note": "",
+    "amount": "540",
+    "currency": "INR"
+  },
+  {
+    "date": "8/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Eggs",
+    "note": "6 eggs",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "8/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "8/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Equity Mutual Fund E",
+    "subcategory": "",
+    "note": "",
+    "amount": "1000",
+    "currency": "INR"
+  },
+  {
+    "date": "7/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Festivals",
+    "subcategory": "Holi",
+    "note": "Holi Tip to cleaner",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "7/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "snacks",
+    "note": "2 Vadapav",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "6/3/2018",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "Thyroid Tablets",
+    "amount": "172",
+    "currency": "INR"
+  },
+  {
+    "date": "6/3/2018",
+    "mode": "Cash",
+    "category": "Health",
+    "subcategory": "Medicine",
+    "note": "5 Meftal spas",
+    "amount": "22",
+    "currency": "INR"
+  },
+  {
+    "date": "6/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Education",
+    "subcategory": "Stationary",
+    "note": "Xerox",
+    "amount": "4",
+    "currency": "INR"
+  },
+  {
+    "date": "6/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Petty cash",
+    "subcategory": "",
+    "note": "From Family",
+    "amount": "3500",
+    "currency": "INR"
+  },
+  {
+    "date": "6/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "6/3/2018",
+    "mode": "Credit Card",
+    "category": "Documents",
+    "subcategory": "Courier",
+    "note": "Aadhar PUC card delivery",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "6/3/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "50",
+    "currency": "INR"
+  },
+  {
+    "date": "5/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "chocobar",
+    "amount": "20",
+    "currency": "INR"
+  },
+  {
+    "date": "5/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "flour mill",
+    "note": "M D sure 3kg atta",
+    "amount": "162",
+    "currency": "INR"
+  },
+  {
+    "date": "5/3/2018",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Supermart",
+    "amount": "1357",
+    "currency": "INR"
+  },
+  {
+    "date": "5/3/2018",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Smart point",
+    "amount": "972",
+    "currency": "INR"
+  },
+  {
+    "date": "5/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Other",
+    "subcategory": "",
+    "note": "blanket sewing",
+    "amount": "10",
+    "currency": "INR"
+  },
+  {
+    "date": "4/3/2018",
+    "mode": "Cash",
+    "category": "Family",
+    "subcategory": "Pocket money",
+    "note": "",
+    "amount": "450",
+    "currency": "INR"
+  },
+  {
+    "date": "4/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "Catering Service",
+    "amount": "130",
+    "currency": "INR"
+  },
+  {
+    "date": "3/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Dividend earned on Shares",
+    "subcategory": "",
+    "note": "ITC Stocks",
+    "amount": "78",
+    "currency": "INR"
+  },
+  {
+    "date": "3/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit  milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "2/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Ice cream",
+    "note": "chocobar",
+    "amount": "15",
+    "currency": "INR"
+  },
+  {
+    "date": "1/3/2018",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Dinner",
+    "note": "Domino's Pizza",
+    "amount": "189",
+    "currency": "INR"
+  },
+  {
+    "date": "1/3/2018",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Eggs",
+    "note": "6 eggs",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "1/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Public Provident Fund",
+    "subcategory": "",
+    "note": "",
+    "amount": "10000",
+    "currency": "INR"
+  },
+  {
+    "date": "1/3/2018",
+    "mode": "Equity Mutual Fund B",
+    "category": "Saving Bank account 1",
+    "subcategory": "",
+    "note": "",
+    "amount": "2000",
+    "currency": "INR"
+  },
+  {
+    "date": "1/3/2018",
+    "mode": "Saving Bank account 1",
+    "category": "Money transfer",
+    "subcategory": "Home",
+    "note": "",
+    "amount": "10000",
+    "currency": "INR"
+  },
+  {
+    "date": "28/02/2018 20:32:55",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Biscuits",
+    "note": "Khari packet",
+    "amount": "45",
+    "currency": "INR"
+  },
+  {
+    "date": "28/02/2018 20:31:38",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "Half lit Varna milk",
+    "amount": "36",
+    "currency": "INR"
+  },
+  {
+    "date": "28/02/2018 20:31:10",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Onions",
+    "note": "onion 1 kg",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "28/02/2018 20:29:59",
+    "mode": "Credit Card",
+    "category": "Food",
+    "subcategory": "Potato",
+    "note": "potato 1kg",
+    "amount": "18",
+    "currency": "INR"
+  },
+  {
+    "date": "28/02/2018 14:52:04",
+    "mode": "Saving Bank account 1",
+    "category": "Salary",
+    "subcategory": "",
+    "note": "From workplace ",
+    "amount": "64556",
+    "currency": "INR"
+  },
+  {
+    "date": "27/02/2018 19:44:34",
+    "mode": "Credit Card",
+    "category": "Household",
+    "subcategory": "Kirana",
+    "note": "Idli pith 1kg",
+    "amount": "38",
+    "currency": "INR"
+  },
+  {
+    "date": "27/02/2018 13:21:31",
+    "mode": "Cash",
+    "category": "Food",
+    "subcategory": "Lunch",
+    "note": "5 chapati",
+    "amount": "30",
+    "currency": "INR"
+  },
+  {
+    "date": "26/02/2018 22:48:53",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "Milk",
+    "note": "1 lit ",
+    "amount": "73",
+    "currency": "INR"
+  },
+  {
+    "date": "26/02/2018 19:32:22",
+    "mode": "Saving Bank account 1",
+    "category": "Household",
+    "subcategory": "Toiletries",
+    "note": "Mirror repair",
+    "amount": "140",
+    "currency": "INR"
+  },
+  {
+    "date": "26/02/2018 18:25:59",
+    "mode": "Credit Card",
+    "category": "Transportation",
+    "subcategory": "Bike",
+    "note": "First servicing",
+    "amount": "443",
+    "currency": "INR"
+  },
+  {
+    "date": "26/02/2018 12:41:33",
+    "mode": "Saving Bank account 1",
+    "category": "Food",
+    "subcategory": "beverage",
+    "note": "chaas",
+    "amount": "17",
+    "currency": "INR"
+  }
+]
