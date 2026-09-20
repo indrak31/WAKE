@@ -126,9 +126,11 @@ export const chapters: Chapter[] = [
   },
 ];
 
-// --- AUTHORED RECEIPTS DATASET ---
+// --- RECEIPTS DATASET (MUSIC & REAL ARCHIVE DATA + REVEAL ANCHORS) ---
 export const receipts: Receipt[] = [
+  // =========================================================================
   // CHAPTER 1: The 2 AM Playlist (Jan–Feb)
+  // =========================================================================
   {
     id: "c1-music-songx",
     type: "music",
@@ -149,19 +151,6 @@ export const receipts: Receipt[] = [
     },
   },
   {
-    id: "c1-search-sleep",
-    type: "search",
-    title: "Search Query",
-    subtitle: "why can't I sleep",
-    timestamp: "2024-01-22T03:18:00",
-    chapterId: "chapter-1",
-    linkedIds: [],
-    details: {
-      query: "why can't I sleep",
-      timeLabel: "3:18 AM",
-    },
-  },
-  {
     id: "c1-note-say",
     type: "note",
     title: "Notes App Draft",
@@ -173,19 +162,6 @@ export const receipts: Receipt[] = [
       noteText:
         "things to say if he asks:\n- just needed space to clear my head\n- work has been hectic\n- don't worry about the keys for now",
       timeLabel: "3:31 AM",
-    },
-  },
-  {
-    id: "c1-search-awake",
-    type: "search",
-    title: "Search Query",
-    subtitle: "how many hours before rem sleep resets",
-    timestamp: "2024-02-19T02:50:00",
-    chapterId: "chapter-1",
-    linkedIds: [],
-    details: {
-      query: "how many hours before rem sleep resets",
-      timeLabel: "2:50 AM",
     },
   },
   {
@@ -204,478 +180,25 @@ export const receipts: Receipt[] = [
       duration: "6:01",
       playCount: 14,
       timeLabel: "3:15 AM",
+      noteText: "Listening in the dark with the phone facing down",
     },
   },
   {
     id: "c1-music-wedonttalk",
     type: "music",
     title: "We Don't Talk Anymore",
-    subtitle: "Streamed 9 times on repeat",
-    timestamp: "2024-01-28T02:38:00",
+    subtitle: "Late-night repeat track",
+    timestamp: "2024-02-18T02:40:00",
     chapterId: "chapter-1",
     linkedIds: [],
     details: {
-      artist: "Charlie Puth feat. Selena Gomez",
+      artist: "Charlie Puth ft. Selena Gomez",
       album: "Nine Track Mind",
-      albumArt: "/covers/we-dont-talk-anymore.jpg",
-      audioUrl: "/audio/we-dont-talk-anymore.mp3",
       duration: "3:37",
-      playCount: 9,
-      timeLabel: "2:38 AM",
-      noteText: "The quiet repetition before turning the screen off",
+      playCount: 11,
+      timeLabel: "2:40 AM",
     },
   },
-
-  // CHAPTER 2: New Coordinates (March)
-  {
-    id: "c2-search-sam",
-    type: "search",
-    title: "Map & Neighborhood Search",
-    subtitle: "new neighborhood 20 min from Sam's apartment",
-    timestamp: "2024-03-03T18:14:00",
-    chapterId: "chapter-2",
-    linkedIds: ["c1-music-songx"], // Reveal Connection 1
-    details: {
-      query: "new neighborhood 20 min from Sam's apartment",
-      timeLabel: "6:14 PM",
-    },
-  },
-  {
-    id: "c2-purchase-truck",
-    type: "purchase",
-    title: "U-Haul Moving Truck",
-    subtitle: "10-foot truck rental + blankets",
-    timestamp: "2024-03-08T09:15:00",
-    chapterId: "chapter-2",
-    linkedIds: ["c2-note-furniture"],
-    details: {
-      merchant: "U-Haul Moving & Storage",
-      items: [
-        { name: "10-Foot Cargo Van Rental", price: 79.95 },
-        { name: "Furniture Blankets (Pack of 6)", price: 18.0 },
-        { name: "Roll of Packing Tape", price: 4.5 },
-      ],
-      total: 102.45,
-      timeLabel: "9:15 AM",
-    },
-  },
-
-  {
-    id: "c2-photo-apt",
-    type: "photo",
-    title: "First Camera Roll Photo",
-    subtitle: "Bare hardwood, radiator ticking",
-    timestamp: "2024-03-10T17:40:00",
-    chapterId: "chapter-2",
-    linkedIds: [],
-    details: {
-      imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
-      timeLabel: "5:40 PM",
-    },
-  },
-  {
-    id: "c2-note-furniture",
-    type: "note",
-    title: "Notes App Draft",
-    subtitle: "furniture list",
-    timestamp: "2024-03-12T20:05:00",
-    chapterId: "chapter-2",
-    linkedIds: ["c2-purchase-truck"],
-    details: {
-      noteText:
-        "furniture list:\n- mattress (urgent)\n- floor lamp with warm bulb\n- thrift store folding chair\n- water kettle\n- shower curtain rings",
-      timeLabel: "8:05 PM",
-    },
-  },
-  {
-    id: "c2-place-subway",
-    type: "place",
-    title: "6 Train — Spring St Station",
-    subtitle: "Swipe at downtown turnstile",
-    timestamp: "2024-03-24T21:40:00",
-    chapterId: "chapter-2",
-    linkedIds: [],
-    details: {
-      address: "Spring St & Lafayette St",
-      coords: "40.7223° N, 73.9972° W",
-      weather: "44°F, damp asphalt",
-      timeLabel: "9:40 PM",
-    },
-  },
-  {
-    id: "c2-music-reminder",
-    type: "music",
-    title: "Reminder",
-    subtitle: "Forward motion, a little defiant",
-    timestamp: "2024-03-15T23:42:00",
-    chapterId: "chapter-2",
-    linkedIds: [],
-    details: {
-      artist: "The Weeknd",
-      album: "Starboy",
-      albumArt: "/covers/reminder.jpg",
-      audioUrl: "/audio/reminder.mp3",
-      duration: "3:38",
-      playCount: 12,
-      timeLabel: "11:42 PM",
-      noteText: "Forward motion, a little defiant",
-    },
-  },
-
-  // CHAPTER 3: Learning the Block (April–May)
-  {
-    id: "c3-place-cafe",
-    type: "place",
-    title: "Café Regular",
-    subtitle: "Corner table by window",
-    timestamp: "2024-04-06T08:22:00",
-    chapterId: "chapter-3",
-    linkedIds: ["c3-purchase-coffee"],
-    details: {
-      address: "158 Berkeley Pl",
-      coords: "40.6755° N, 73.9772° W",
-      weather: "56°F, pale morning sun",
-      timeLabel: "8:22 AM",
-    },
-  },
-  {
-    id: "c3-purchase-plant",
-    type: "purchase",
-    title: "Corner Bodega & Greenery",
-    subtitle: "Potted snake plant & saucer",
-    timestamp: "2024-04-14T14:10:00",
-    chapterId: "chapter-3",
-    linkedIds: [],
-    details: {
-      merchant: "7th Ave Florist & Market",
-      items: [
-        { name: "Sansevieria in Terra Cotta", price: 24.0 },
-        { name: "Spray Mist Bottle", price: 6.0 },
-      ],
-      total: 30.0,
-      timeLabel: "2:10 PM",
-    },
-  },
-  {
-    id: "c3-note-block",
-    type: "note",
-    title: "Notes App Draft",
-    subtitle: "things I like about this block",
-    timestamp: "2024-05-02T16:15:00",
-    chapterId: "chapter-3",
-    linkedIds: ["c4-place-park"], // Reveal Connection 2
-    details: {
-      noteText:
-        "things I like about this block:\n- the bakery that opens at 6:30 and smells like cardamom\n- the quiet north bench in the park where nobody looks at you\n- the tree that blooms white petals right by the mailbox",
-      timeLabel: "4:15 PM",
-    },
-  },
-  {
-    id: "c3-purchase-bike",
-    type: "purchase",
-    title: "Used Bicycle Purchase",
-    subtitle: "10-speed road bike via Craigslist",
-    timestamp: "2024-05-11T11:30:00",
-    chapterId: "chapter-3",
-    linkedIds: [],
-    details: {
-      merchant: "Cash Exchange — Craigslist",
-      items: [{ name: "1988 Schwinn Traveler 10-Speed", price: 120.0 }],
-      total: 120.0,
-      timeLabel: "11:30 AM",
-    },
-  },
-  {
-    id: "c3-purchase-coffee",
-    type: "purchase",
-    title: "Café Regular Bean Bag",
-    subtitle: "Whole bean house roast",
-    timestamp: "2024-05-18T09:05:00",
-    chapterId: "chapter-3",
-    linkedIds: ["c3-place-cafe"],
-    details: {
-      merchant: "Café Regular",
-      items: [{ name: "12oz Guatemala Antigua Whole Bean", price: 19.5 }],
-      total: 19.5,
-      timeLabel: "9:05 AM",
-    },
-  },
-  {
-    id: "c3-message-sam1",
-    type: "message",
-    title: "Message to Sam",
-    subtitle: "i found that bakery you talked about",
-    timestamp: "2024-05-27T17:42:00",
-    chapterId: "chapter-3",
-    linkedIds: [],
-    details: {
-      sender: "You",
-      isOutgoing: true,
-      timeLabel: "5:42 PM",
-    },
-  },
-  {
-    id: "c3-music-secrets",
-    type: "music",
-    title: "Secrets",
-    subtitle: "Curious, exploratory, lighter",
-    timestamp: "2024-04-20T09:18:00",
-    chapterId: "chapter-3",
-    linkedIds: [],
-    details: {
-      artist: "The Weeknd",
-      album: "Starboy",
-      albumArt: "/covers/secrets.jpg",
-      audioUrl: "/audio/secrets.mp3",
-      duration: "4:25",
-      playCount: 8,
-      timeLabel: "9:18 AM",
-      noteText: "Curious, exploratory, lighter",
-    },
-  },
-  {
-    id: "c3-music-mala",
-    type: "music",
-    title: "MALA",
-    subtitle: "Heard drifting from the bodega speakers on 4th Ave",
-    timestamp: "2024-04-18T16:22:00",
-    chapterId: "chapter-3",
-    linkedIds: [],
-    details: {
-      artist: "6ix9ine feat. Anuel AA",
-      album: "DUMMY BOY",
-      albumArt: "/covers/mala.jpg",
-      audioUrl: "/audio/mala.mp3",
-      duration: "3:27",
-      playCount: 6,
-      timeLabel: "4:22 PM",
-      noteText: "Shazamed on the corner of 4th & Bergen — spring air finally arrived",
-    },
-  },
-
-  // CHAPTER 4: The Night Everything Lined Up (June 14 — Authored Reveal Cluster)
-  {
-    id: "c4-song-firstplay",
-    type: "music",
-    title: "First Play: 'Die For You'",
-    subtitle: "First time playing this song",
-    timestamp: "2024-06-14T19:12:00",
-    chapterId: "chapter-4",
-    linkedIds: ["c4-place-park", "c4-photo-744", "c4-purchase-twocoffees", "c4-message-good"], // Reveal Cluster 3
-    details: {
-      artist: "The Weeknd",
-      album: "Starboy",
-      albumArt: "/covers/die-for-you.jpg",
-      audioUrl: "/audio/die-for-you.mp3",
-      duration: "4:20",
-      playCount: 1,
-      timeLabel: "7:12 PM",
-      noteText: "The one deliberately 'first time playing this song' moment — a turning point, not background noise",
-    },
-  },
-  {
-    id: "c4-place-park",
-    type: "place",
-    title: "Location Check-in: Park Bench",
-    subtitle: "The park from Chapter 3",
-    timestamp: "2024-06-14T19:28:00",
-    chapterId: "chapter-4",
-    // Linked to Chapter 3 note (Reveal 2) AND the June 14 cluster (Reveal 3)
-    linkedIds: ["c3-note-block", "c4-song-firstplay", "c4-photo-744", "c4-purchase-twocoffees", "c4-message-good"],
-    details: {
-      address: "Cobble Hill Park (North Bench)",
-      coords: "40.6882° N, 73.9967° W",
-      weather: "72°F, summer dusk, light breeze",
-      timeLabel: "7:28 PM",
-    },
-  },
-  {
-    id: "c4-photo-744",
-    type: "photo",
-    title: "Photo",
-    subtitle: "Timestamp 7:44 PM (no caption)",
-    timestamp: "2024-06-14T19:44:00",
-    chapterId: "chapter-4",
-    linkedIds: ["c4-song-firstplay", "c4-place-park", "c4-purchase-twocoffees", "c4-message-good"], // Reveal Cluster 3
-    details: {
-      imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80",
-      timeLabel: "7:44 PM",
-    },
-  },
-  {
-    id: "c4-purchase-twocoffees",
-    type: "purchase",
-    title: "Two Iced Coffees",
-    subtitle: "Café Regular — 7:50 PM",
-    timestamp: "2024-06-14T19:50:00",
-    chapterId: "chapter-4",
-    linkedIds: ["c4-song-firstplay", "c4-place-park", "c4-photo-744", "c4-message-good"], // Reveal Cluster 3
-    details: {
-      merchant: "Café Regular",
-      items: [
-        { name: "Iced Cold Brew with Oat Milk", price: 5.75 },
-        { name: "Iced Americano", price: 4.75 },
-      ],
-      total: 10.5,
-      timeLabel: "7:50 PM",
-    },
-  },
-  {
-    id: "c4-message-good",
-    type: "message",
-    title: "Message to Sam",
-    subtitle: "today was good.",
-    timestamp: "2024-06-14T23:58:00",
-    chapterId: "chapter-4",
-    linkedIds: ["c4-song-firstplay", "c4-place-park", "c4-photo-744", "c4-purchase-twocoffees"], // Reveal Cluster 3
-    details: {
-      sender: "You",
-      isOutgoing: true,
-      timeLabel: "11:58 PM",
-    },
-  },
-
-  // CHAPTER 5: Quietly, Something Changed (July–Sept)
-  {
-    id: "c5-purchase-key",
-    type: "purchase",
-    title: "Second Key Cut",
-    subtitle: "Ace Hardware — September",
-    timestamp: "2024-09-06T14:32:00",
-    chapterId: "chapter-5",
-    linkedIds: ["c1-note-say"], // Reveal Connection 4
-    details: {
-      merchant: "Courthouse Ace Hardware",
-      items: [
-        { name: "Brass Key Duplication (Kwikset 66)", price: 4.25 },
-        { name: "Colored Ring Tag (Olive Green)", price: 1.5 },
-      ],
-      total: 5.75,
-      timeLabel: "2:32 PM",
-    },
-  },
-  {
-    id: "c5-event-concert",
-    type: "event",
-    title: "Prospect Park Bandshell Tickets",
-    subtitle: "Two tickets — summer concert series",
-    timestamp: "2024-07-19T19:30:00",
-    chapterId: "chapter-5",
-    linkedIds: [],
-    details: {
-      venue: "Lena Horne Bandshell, Prospect Park",
-      ticketCount: 2,
-      timeLabel: "7:30 PM",
-    },
-  },
-  {
-    id: "c5-note-miss",
-    type: "note",
-    title: "Notes App Draft",
-    subtitle: "things I don't miss",
-    timestamp: "2024-08-04T10:15:00",
-    chapterId: "chapter-5",
-    linkedIds: [],
-    details: {
-      noteText:
-        "things I don't miss:\n- waiting for the 3:45 AM train\n- staring at the phone screen in the dark\n- having to explain why I'm quiet\n- checking whether you left the light on",
-      timeLabel: "10:15 AM",
-    },
-  },
-  {
-    id: "c5-event-hike",
-    type: "event",
-    title: "Metro-North Day Trip",
-    subtitle: "Two roundtrip passes to Cold Spring",
-    timestamp: "2024-08-24T08:15:00",
-    chapterId: "chapter-5",
-    linkedIds: [],
-    details: {
-      venue: "Grand Central to Cold Spring",
-      ticketCount: 2,
-      timeLabel: "8:15 AM",
-    },
-  },
-  {
-    id: "c5-purchase-twoorders",
-    type: "purchase",
-    title: "Sunday Morning Bakery Run",
-    subtitle: "Two coffees & cardamombun",
-    timestamp: "2024-09-15T09:40:00",
-    chapterId: "chapter-5",
-    linkedIds: [],
-    details: {
-      merchant: "Söder Cardamom & Coffee",
-      items: [
-        { name: "Filter Coffee (Large)", price: 4.5 },
-        { name: "Oat Cortado", price: 5.0 },
-        { name: "Fresh Cardamom Buns (x2)", price: 9.0 },
-      ],
-      total: 18.5,
-      timeLabel: "9:40 AM",
-    },
-  },
-
-  {
-    id: "c5-music-lessthanzero",
-    type: "music",
-    title: "Less Than Zero",
-    subtitle: "Windows rolled down, driving back from the day trip",
-    timestamp: "2024-08-24T18:45:00",
-    chapterId: "chapter-5",
-    linkedIds: [],
-    details: {
-      artist: "The Weeknd",
-      album: "Dawn FM",
-      duration: "3:31",
-      playCount: 3,
-      timeLabel: "6:45 PM",
-    },
-  },
-  {
-    id: "c5-music-saveyourtears",
-    type: "music",
-    title: "Save Your Tears",
-    subtitle: "Settled, a little wistful but at peace",
-    timestamp: "2024-09-10T21:14:00",
-    chapterId: "chapter-5",
-    linkedIds: [],
-    details: {
-      artist: "The Weeknd",
-      album: "After Hours",
-      albumArt: "/covers/save-your-tears.jpg",
-      audioUrl: "/audio/save-your-tears.mp3",
-      duration: "3:35",
-      playCount: 7,
-      timeLabel: "9:14 PM",
-      noteText: "Settled, a little wistful but at peace",
-    },
-  },
-  {
-    id: "c5-music-lovenwantiti",
-    type: "music",
-    title: "Love Nwantiti (ah ah ah)",
-    subtitle: "North African Remix • Sunset on the fire escape",
-    timestamp: "2024-08-16T19:48:00",
-    chapterId: "chapter-5",
-    linkedIds: [],
-    details: {
-      artist: "CKay feat. ElGrande Toto",
-      album: "Love Nwantiti (Remix)",
-      albumArt: "/covers/love-nwantiti.jpg",
-      audioUrl: "/audio/love-nwantiti.mp3",
-      duration: "2:25",
-      playCount: 15,
-      timeLabel: "7:48 PM",
-      noteText: "Windows wide open, breeze finally cooling the apartment down",
-    },
-  },
-
-  // =========================================================================
-  // AUTHENTIC FRAGMENTS EXTRACTED FROM ARCHIVE DATASETS (Spotify & Daily Household Ledger)
-  // =========================================================================
-
-  // Chapter 1: The 2 AM Playlist (Jan–Feb) — Extracted Fragments
   {
     id: "c1-music-born-die",
     type: "music",
@@ -747,7 +270,60 @@ export const receipts: Receipt[] = [
     },
   },
 
-  // Chapter 2: New Coordinates (March) — Extracted Fragments
+  // =========================================================================
+  // CHAPTER 2: New Coordinates (March)
+  // =========================================================================
+  {
+    id: "c2-search-sam",
+    type: "search",
+    title: "Map & Neighborhood Search",
+    subtitle: "how far is sam's apartment from cobble hill",
+    timestamp: "2024-03-03T19:42:00",
+    chapterId: "chapter-2",
+    linkedIds: ["c1-music-songx"], // Reveal Connection 1
+    details: {
+      query: "how far is sam's apartment from cobble hill",
+      timeLabel: "7:42 PM",
+    },
+  },
+  {
+    id: "c2-music-reminder",
+    type: "music",
+    title: "Reminder",
+    subtitle: "Streamed 7 times in 48 hours right after the move",
+    timestamp: "2024-03-05T08:15:00",
+    chapterId: "chapter-2",
+    linkedIds: [],
+    details: {
+      artist: "The Weeknd",
+      album: "Starboy",
+      albumArt: "/covers/reminder.jpg",
+      audioUrl: "/audio/reminder.mp3",
+      duration: "3:38",
+      playCount: 7,
+      timeLabel: "8:15 AM",
+      noteText: "Streamed 7 times in 48 hours right after the move",
+    },
+  },
+  {
+    id: "c2-music-killers-done",
+    type: "music",
+    title: "All These Things That I've Done",
+    subtitle: "Earphones on high while riding the unfamiliar transfer route",
+    timestamp: "2024-03-18T10:14:00",
+    chapterId: "chapter-2",
+    linkedIds: [],
+    details: {
+      artist: "The Killers",
+      album: "Hot Fuss",
+      albumArt: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&auto=format&fit=crop&q=60",
+      duration: "5:01",
+      playCount: 18,
+      timeLabel: "10:14 AM",
+      noteText: "Soundtrack for walking into the new district for the first time",
+      sourceDataset: "Spotify Listening History (archive.zip)",
+    },
+  },
   {
     id: "c2-purchase-transit-train",
     type: "purchase",
@@ -782,25 +358,6 @@ export const receipts: Receipt[] = [
     },
   },
   {
-    id: "c2-music-killers-done",
-    type: "music",
-    title: "All These Things That I've Done",
-    subtitle: "Earphones on high while riding the unfamiliar transfer route",
-    timestamp: "2024-03-18T10:14:00",
-    chapterId: "chapter-2",
-    linkedIds: [],
-    details: {
-      artist: "The Killers",
-      album: "Hot Fuss",
-      albumArt: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&auto=format&fit=crop&q=60",
-      duration: "5:01",
-      playCount: 18,
-      timeLabel: "10:14 AM",
-      noteText: "Soundtrack for walking into the new district for the first time",
-      sourceDataset: "Spotify Listening History (archive.zip)",
-    },
-  },
-  {
     id: "c2-purchase-ironing",
     type: "purchase",
     title: "Neighborhood Laundry & Pressing",
@@ -816,8 +373,93 @@ export const receipts: Receipt[] = [
       sourceDataset: "Daily Household Transactions (archive (1).zip)",
     },
   },
+  {
+    id: "c2-purchase-train-interchange",
+    type: "purchase",
+    title: "Transit Transfer — Place 0 to Place 3",
+    subtitle: "Evening connecting train pass across the outer junction",
+    timestamp: "2024-03-22T21:35:15",
+    chapterId: "chapter-2",
+    linkedIds: [],
+    details: {
+      merchant: "Regional Commuter Rail",
+      items: [{ name: "Inter-Station Connecting Ticket", price: 5.25 }],
+      total: 5.25,
+      timeLabel: "9:35 PM",
+      sourceDataset: "Daily Household Transactions (archive (1).zip)",
+    },
+  },
 
-  // Chapter 3: Learning the Block (April–May) — Extracted Fragments
+  // =========================================================================
+  // CHAPTER 3: Learning the Block (April–May)
+  // =========================================================================
+  {
+    id: "c3-note-block",
+    type: "note",
+    title: "Notes App Draft",
+    subtitle: "things I like about this block",
+    timestamp: "2024-05-02T19:30:00",
+    chapterId: "chapter-3",
+    linkedIds: ["c4-place-park"], // Reveal Connection 2
+    details: {
+      noteText:
+        "things I like about this block:\n- the bakery that smells like cardamom\n- how quiet it gets after 8\n- the bench by the playground where the light hits at 7",
+      timeLabel: "7:30 PM",
+    },
+  },
+  {
+    id: "c3-music-secrets",
+    type: "music",
+    title: "Secrets",
+    subtitle: "Heavy rotation during early morning walks",
+    timestamp: "2024-04-10T07:22:00",
+    chapterId: "chapter-3",
+    linkedIds: [],
+    details: {
+      artist: "The Weeknd",
+      album: "Starboy",
+      albumArt: "/covers/secrets.jpg",
+      audioUrl: "/audio/secrets.mp3",
+      duration: "4:25",
+      playCount: 16,
+      timeLabel: "7:22 AM",
+    },
+  },
+  {
+    id: "c3-music-mala",
+    type: "music",
+    title: "MALA",
+    subtitle: "Afternoon spring walking track",
+    timestamp: "2024-05-12T16:45:00",
+    chapterId: "chapter-3",
+    linkedIds: [],
+    details: {
+      artist: "Maluma",
+      album: "The Love & Sex",
+      duration: "3:10",
+      playCount: 8,
+      timeLabel: "4:45 PM",
+    },
+  },
+  {
+    id: "c3-music-in-the-blood",
+    type: "music",
+    title: "In the Blood",
+    subtitle: "Afternoon walking playlist while exploring the side streets",
+    timestamp: "2024-04-22T14:40:00",
+    chapterId: "chapter-3",
+    linkedIds: [],
+    details: {
+      artist: "John Mayer",
+      album: "The Search for Everything",
+      albumArt: "https://images.unsplash.com/photo-1445985543470-41f30c08f10a?w=500&auto=format&fit=crop&q=60",
+      duration: "4:05",
+      playCount: 22,
+      timeLabel: "2:40 PM",
+      noteText: "Sun warm on the brick facades, discovering the pocket park down 4th",
+      sourceDataset: "Spotify Listening History (archive.zip)",
+    },
+  },
   {
     id: "c3-purchase-breakfast-idli",
     type: "purchase",
@@ -858,25 +500,6 @@ export const receipts: Receipt[] = [
     },
   },
   {
-    id: "c3-music-in-the-blood",
-    type: "music",
-    title: "In the Blood",
-    subtitle: "Afternoon walking playlist while exploring the side streets",
-    timestamp: "2024-04-22T14:40:00",
-    chapterId: "chapter-3",
-    linkedIds: [],
-    details: {
-      artist: "John Mayer",
-      album: "The Search for Everything",
-      albumArt: "https://images.unsplash.com/photo-1445985543470-41f30c08f10a?w=500&auto=format&fit=crop&q=60",
-      duration: "4:05",
-      playCount: 22,
-      timeLabel: "2:40 PM",
-      noteText: "Sun warm on the brick facades, discovering the pocket park down 4th",
-      sourceDataset: "Spotify Listening History (archive.zip)",
-    },
-  },
-  {
     id: "c3-purchase-hbr-journal",
     type: "purchase",
     title: "Reading Journal & Bookstall",
@@ -892,44 +515,213 @@ export const receipts: Receipt[] = [
       sourceDataset: "Daily Household Transactions (archive (1).zip)",
     },
   },
-
-  // Chapter 5: Quietly, Something Changed (July–Sept) — Extracted Fragments
   {
-    id: "c5-purchase-bakery-routine",
+    id: "c3-purchase-evening-snacks",
     type: "purchase",
-    title: "Morning Bakery & Dairy Routine",
-    subtitle: "Artisanal crusty sourdough loaf and sweet cultured butter",
-    timestamp: "2024-08-16T08:10:00",
-    chapterId: "chapter-5",
+    title: "Evening Street Corner Snacks",
+    subtitle: "Crispy savory street snack plate on the walk home from work",
+    timestamp: "2024-05-24T18:30:00",
+    chapterId: "chapter-3",
     linkedIds: [],
     details: {
-      merchant: "Corner Hearth Bakery",
+      merchant: "Chaat & Street Food Corner",
       items: [
-        { name: "Artisanal Sourdough Loaf", price: 3.5 },
-        { name: "Cultured Table Butter", price: 1.8 },
+        { name: "Spiced Chinese Bhel", price: 3.0 },
+        { name: "Sev Puri Crisp Plates (x2)", price: 4.5 },
       ],
-      total: 5.3,
-      timeLabel: "8:10 AM",
+      total: 7.5,
+      timeLabel: "6:30 PM",
       sourceDataset: "Daily Household Transactions (archive (1).zip)",
     },
   },
+
+  // =========================================================================
+  // CHAPTER 4: The Night Everything Lined Up (June 14)
+  // [Core Reveal 3 Hinge Cluster — Strictly Preserved]
+  // =========================================================================
   {
-    id: "c5-purchase-shared-dinner",
+    id: "c4-song-firstplay",
+    type: "music",
+    title: "First Play: 'Die For You'",
+    subtitle: "First stream ever logged in your library • 7:12 PM",
+    timestamp: "2024-06-14T19:12:00",
+    chapterId: "chapter-4",
+    linkedIds: [
+      "c4-place-park",
+      "c4-photo-744",
+      "c4-purchase-twocoffees",
+      "c4-message-good",
+    ], // Reveal Connection 3
+    details: {
+      artist: "The Weeknd",
+      album: "Starboy",
+      albumArt: "/covers/die-for-you.jpg",
+      audioUrl: "/audio/die-for-you.mp3",
+      duration: "4:20",
+      playCount: 1,
+      timeLabel: "7:12 PM",
+      noteText: "First stream ever logged in your library. You had one headphone in.",
+    },
+  },
+  {
+    id: "c4-place-park",
+    type: "place",
+    title: "Location Check-in: Park Bench",
+    subtitle: "Cobble Hill Park • Southeast corner bench",
+    timestamp: "2024-06-14T19:28:00",
+    chapterId: "chapter-4",
+    linkedIds: [
+      "c3-note-block",
+      "c4-song-firstplay",
+      "c4-photo-744",
+      "c4-purchase-twocoffees",
+      "c4-message-good",
+    ], // Reveal 2 & Reveal 3
+    details: {
+      address: "Cobble Hill Park, Brooklyn, NY",
+      coords: "40.6882° N, 73.9969° W",
+      weather: "72°F, Clear golden hour",
+      timeLabel: "7:28 PM",
+      noteText: "The same bench you wrote down six weeks ago. Now there were two of you on it.",
+    },
+  },
+  {
+    id: "c4-photo-744",
+    type: "photo",
+    title: "Photo",
+    subtitle: "Cobble Hill Park • 7:44 PM • Unedited",
+    timestamp: "2024-06-14T19:44:00",
+    chapterId: "chapter-4",
+    linkedIds: [
+      "c4-song-firstplay",
+      "c4-place-park",
+      "c4-purchase-twocoffees",
+      "c4-message-good",
+    ], // Reveal Connection 3
+    details: {
+      imageUrl: "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?w=800&auto=format&fit=crop&q=80",
+      timeLabel: "7:44 PM",
+      noteText: "Golden hour through the trees. You didn't post it. You just kept it.",
+    },
+  },
+  {
+    id: "c4-purchase-twocoffees",
     type: "purchase",
-    title: "Terrace Dinner with Friends",
-    subtitle: "Two hand-tossed pizzas and drinks out on the patio until 10 PM",
-    timestamp: "2024-08-31T20:15:00",
+    title: "Two Iced Coffees",
+    subtitle: "Cobble Hill Coffee Roasters • 8:02 PM",
+    timestamp: "2024-06-14T20:02:00",
+    chapterId: "chapter-4",
+    linkedIds: [
+      "c4-song-firstplay",
+      "c4-place-park",
+      "c4-photo-744",
+      "c4-message-good",
+    ], // Reveal Connection 3
+    details: {
+      merchant: "Cobble Hill Coffee Roasters",
+      items: [
+        { name: "Iced Oat Latte", price: 6.5 },
+        { name: "Cold Brew with Milk", price: 5.5 },
+      ],
+      total: 12.0,
+      timeLabel: "8:02 PM",
+      noteText: "Two cups. First time you ever ordered more than one.",
+    },
+  },
+  {
+    id: "c4-message-good",
+    type: "message",
+    title: "Message to Sam",
+    subtitle: "today was good.",
+    timestamp: "2024-06-14T23:58:00",
+    chapterId: "chapter-4",
+    linkedIds: [
+      "c4-song-firstplay",
+      "c4-place-park",
+      "c4-photo-744",
+      "c4-purchase-twocoffees",
+    ], // Reveal Connection 3
+    details: {
+      sender: "You",
+      isOutgoing: true,
+      timeLabel: "11:58 PM",
+      noteText: "Three words sent before setting the phone on the nightstand.",
+    },
+  },
+
+  // =========================================================================
+  // CHAPTER 5: Quietly, Something Changed (July–Sept)
+  // =========================================================================
+  {
+    id: "c5-purchase-key",
+    type: "purchase",
+    title: "Second Key Cut",
+    subtitle: "Two brass keys cut • September 06",
+    timestamp: "2024-09-06T14:15:00",
+    chapterId: "chapter-5",
+    linkedIds: ["c1-note-say"], // Reveal Connection 4
+    details: {
+      merchant: "Court Street Lock & Key",
+      items: [{ name: "Standard Brass House Key Duplicate (x2)", price: 9.0 }],
+      total: 9.0,
+      timeLabel: "2:15 PM",
+      noteText: "The thing you were scared to say in January, you didn't have to say by September.",
+    },
+  },
+  {
+    id: "c5-music-lessthanzero",
+    type: "music",
+    title: "Less Than Zero",
+    subtitle: "Daytime listening, sunny afternoon",
+    timestamp: "2024-07-15T15:30:00",
     chapterId: "chapter-5",
     linkedIds: [],
     details: {
-      merchant: "Corner Wood-Fired Pizzeria",
-      items: [
-        { name: "Margherita & Roasted Garlic Pizzas", price: 28.0 },
-        { name: "Sparkling Drinks & Tiramisu", price: 14.5 },
-      ],
-      total: 42.5,
-      timeLabel: "8:15 PM",
-      sourceDataset: "Daily Household Transactions (archive (1).zip)",
+      artist: "The Weeknd",
+      album: "Dawn FM",
+      albumArt: "/covers/less-than-zero.jpg",
+      audioUrl: "/audio/less-than-zero.mp3",
+      duration: "3:31",
+      playCount: 12,
+      timeLabel: "3:30 PM",
+      noteText: "Playing through open windows on a Sunday afternoon",
+    },
+  },
+  {
+    id: "c5-music-saveyourtears",
+    type: "music",
+    title: "Save Your Tears",
+    subtitle: "Evening kitchen cooking soundtrack",
+    timestamp: "2024-08-05T19:20:00",
+    chapterId: "chapter-5",
+    linkedIds: [],
+    details: {
+      artist: "The Weeknd",
+      album: "After Hours",
+      albumArt: "/covers/save-your-tears.jpg",
+      audioUrl: "/audio/save-your-tears.mp3",
+      duration: "3:35",
+      playCount: 9,
+      timeLabel: "7:20 PM",
+    },
+  },
+  {
+    id: "c5-music-lovenwantiti",
+    type: "music",
+    title: "Love Nwantiti (ah ah ah)",
+    subtitle: "Evening summer soundtrack • repeat loop",
+    timestamp: "2024-08-25T19:48:00",
+    chapterId: "chapter-5",
+    linkedIds: [],
+    details: {
+      artist: "CKay feat. ElGrande Toto",
+      album: "Love Nwantiti (Remix)",
+      albumArt: "/covers/love-nwantiti.jpg",
+      audioUrl: "/audio/love-nwantiti.mp3",
+      duration: "2:25",
+      playCount: 15,
+      timeLabel: "7:48 PM",
+      noteText: "Windows wide open, breeze finally cooling the apartment down",
     },
   },
   {
@@ -970,6 +762,44 @@ export const receipts: Receipt[] = [
       sourceDataset: "Spotify Listening History (archive.zip)",
     },
   },
+  {
+    id: "c5-purchase-bakery-routine",
+    type: "purchase",
+    title: "Morning Bakery & Dairy Routine",
+    subtitle: "Artisanal crusty sourdough loaf and sweet cultured butter",
+    timestamp: "2024-08-16T08:10:00",
+    chapterId: "chapter-5",
+    linkedIds: [],
+    details: {
+      merchant: "Corner Hearth Bakery",
+      items: [
+        { name: "Artisanal Sourdough Loaf", price: 3.5 },
+        { name: "Cultured Table Butter", price: 1.8 },
+      ],
+      total: 5.3,
+      timeLabel: "8:10 AM",
+      sourceDataset: "Daily Household Transactions (archive (1).zip)",
+    },
+  },
+  {
+    id: "c5-purchase-shared-dinner",
+    type: "purchase",
+    title: "Terrace Dinner with Friends",
+    subtitle: "Two hand-tossed pizzas and drinks out on the patio until 10 PM",
+    timestamp: "2024-08-31T20:15:00",
+    chapterId: "chapter-5",
+    linkedIds: [],
+    details: {
+      merchant: "Corner Wood-Fired Pizzeria",
+      items: [
+        { name: "Margherita & Roasted Garlic Pizzas", price: 28.0 },
+        { name: "Sparkling Drinks & Tiramisu", price: 14.5 },
+      ],
+      total: 42.5,
+      timeLabel: "8:15 PM",
+      sourceDataset: "Daily Household Transactions (archive (1).zip)",
+    },
+  },
 ];
 
 // --- AUTHORED REVEAL CONNECTIONS (EXACT STRINGS - VERBATIM) ---
@@ -1003,36 +833,26 @@ export const REVEAL_CONNECTIONS = {
 // Helper to look up the exact authored linkReason between any two connected receipts
 export function getLinkReason(idA: string, idB: string): string | undefined {
   const pair = [idA, idB];
-  
+
   // Reveal 1
   if (pair.includes("c1-music-songx") && pair.includes("c2-search-sam")) {
     return REVEAL_CONNECTIONS.reveal1.linkReason;
   }
-  
+
   // Reveal 2
   if (pair.includes("c3-note-block") && pair.includes("c4-place-park")) {
     return REVEAL_CONNECTIONS.reveal2.linkReason;
   }
-  
+
   // Reveal 3 (June 14 Cluster)
   const ch4Cluster = REVEAL_CONNECTIONS.reveal3.ids;
   if (ch4Cluster.includes(idA as any) && ch4Cluster.includes(idB as any)) {
     return REVEAL_CONNECTIONS.reveal3.linkReason;
   }
-  
+
   // Reveal 4
   if (pair.includes("c1-note-say") && pair.includes("c5-purchase-key")) {
     return REVEAL_CONNECTIONS.reveal4.linkReason;
-  }
-
-  // Chapter 2 moving pair
-  if (pair.includes("c2-purchase-truck") && pair.includes("c2-note-furniture")) {
-    return "The moving day inventory — moving truck and the first night essentials.";
-  }
-
-  // Chapter 3 coffee regular pair
-  if (pair.includes("c3-place-cafe") && pair.includes("c3-purchase-coffee")) {
-    return "Your local corner table and the beans you started grinding at home.";
   }
 
   return undefined;
