@@ -1,4 +1,4 @@
-# Life, in Receipts
+# WAKE
 
 A frontend-only interactive experience that turns a fictional dataset of digital-life fragments into a connected, discoverable story — not a timeline, a story you can pull apart and reassemble yourself.
 

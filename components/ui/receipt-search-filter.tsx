@@ -66,8 +66,8 @@ export const ReceiptSearchFilter: React.FC<ReceiptSearchFilterProps> = ({
             title="Return to Top"
           >
             <div className="w-2.5 h-2.5 rounded-full bg-violet-400 shadow-[0_0_10px_rgba(168,85,247,0.8)]" />
-            <span className="font-semibold text-xs sm:text-sm tracking-tight text-white group-hover:text-violet-300 transition-colors font-mono">
-              Life, in Receipts
+            <span className="font-bold text-sm sm:text-base tracking-wider text-white group-hover:text-violet-300 transition-colors font-mono">
+              WAKE
             </span>
           </a>
 

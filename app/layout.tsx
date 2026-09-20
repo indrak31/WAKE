@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Life, in Receipts — A Story in Digital Fragments",
+  title: "WAKE — A Story in Digital Fragments",
   description:
     "A frontend interactive experience turning a dataset of digital-life fragments (music, searches, places, notes, purchases) into a connected, discoverable story.",
 };

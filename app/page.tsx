@@ -136,7 +136,7 @@ export default function LifeInReceiptsPage() {
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[400px] rounded-full bg-violet-600/[0.12] blur-[100px] pointer-events-none" />
         <div className="max-w-md mx-auto space-y-2 relative z-10">
-          <p className="text-neutral-400">Life, in Receipts — A reconstructed digital life across 10 months.</p>
+          <p className="text-neutral-400">WAKE — A reconstructed digital life across 10 months.</p>
           <p className="text-neutral-600">
             {receipts.length} fragments logged • 6 chapters • 4 hidden hinges • 0 SaaS placeholders.
           </p>
