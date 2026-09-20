@@ -47,9 +47,9 @@ export const StoryReveal: React.FC<StoryRevealProps> = ({ className }) => {
       }}
     >
       {/* Immersive ambient glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-violet-600/[0.22] blur-[160px] pointer-events-none" />
-      <div className="absolute bottom-1/3 left-1/4 w-[550px] h-[550px] rounded-full bg-fuchsia-600/[0.16] blur-[130px] pointer-events-none" />
-      <div className="absolute bottom-10 right-1/4 w-[450px] h-[450px] rounded-full bg-purple-500/[0.15] blur-[110px] pointer-events-none" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-200 h-200 rounded-full bg-violet-600/22 blur-[160px] pointer-events-none" />
+      <div className="absolute bottom-1/3 left-1/4 w-137.5 h-137.5 rounded-full bg-fuchsia-600/16 blur-[130px] pointer-events-none" />
+      <div className="absolute bottom-10 right-1/4 w-112.5 h-112.5 rounded-full bg-purple-500/15 blur-[110px] pointer-events-none" />
 
       {/* Top Narrative Opening */}
       <div className="max-w-3xl mx-auto text-center z-10 pt-8">

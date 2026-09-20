@@ -456,7 +456,7 @@ export const SoundtrackDock: React.FC<{ className?: string }> = ({ className }) 
         <div className="flex items-center gap-2.5 bg-neutral-950/90 backdrop-blur-xl border border-violet-500/40 rounded-full pl-2 pr-4 py-2 shadow-[0_0_25px_rgba(168,85,247,0.35),0_10px_35px_rgba(124,58,237,0.4)] hover:border-violet-400/80 hover:shadow-[0_0_35px_rgba(168,85,247,0.55)] transition-all">
           <button
             onClick={togglePlay}
-            className="w-8 h-8 rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white flex items-center justify-center shadow-[0_0_15px_rgba(168,85,247,0.7)] cursor-pointer hover:scale-105 transition-transform"
+            className="w-8 h-8 rounded-full bg-linear-to-r from-violet-500 to-fuchsia-500 text-white flex items-center justify-center shadow-[0_0_15px_rgba(168,85,247,0.7)] cursor-pointer hover:scale-105 transition-transform"
             aria-label={isPlaying ? "Pause soundtrack" : "Play soundtrack"}
           >
             {isPlaying ? <Pause className="w-4 h-4 fill-current" /> : <Play className="w-4 h-4 ml-0.5 fill-current" />}
@@ -484,7 +484,7 @@ export const SoundtrackDock: React.FC<{ className?: string }> = ({ className }) 
             </div>
 
             <div className="hidden sm:block">
-              <div className="text-[11px] font-bold text-white font-mono leading-none truncate max-w-[130px]">
+              <div className="text-[11px] font-bold text-white font-mono leading-none truncate max-w-32.5">
                 {currentTrack.name.split("(")[0]}
               </div>
               <div className="text-[10px] text-neutral-400 font-mono mt-0.5 flex items-center gap-1">

@@ -71,8 +71,8 @@ export function ScrollingFeatureShowcase() {
           style={dynamicStyles}
         >
           {/* Subtle noise and radial glow */}
-          <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-500/15 via-transparent to-black/50" />
-          <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] rounded-full bg-violet-600/[0.15] blur-[140px] pointer-events-none" />
+          <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-violet-500/15 via-transparent to-black/50" />
+          <div className="absolute top-1/4 right-1/4 w-125 h-125 rounded-full bg-violet-600/15 blur-[140px] pointer-events-none" />
 
           {/* Wake brand mark — upper left */}
           <div className="absolute top-6 left-8 md:left-12 z-20">
@@ -97,7 +97,7 @@ export function ScrollingFeatureShowcase() {
                     }}
                     className={`h-1.5 rounded-full transition-all duration-500 ease-in-out cursor-pointer ${
                       index === activeIndex
-                        ? "w-12 bg-gradient-to-r from-violet-400 to-purple-400 shadow-[0_0_15px_rgba(168,85,247,0.9)]"
+                        ? "w-12 bg-linear-to-r from-violet-400 to-purple-400 shadow-[0_0_15px_rgba(168,85,247,0.9)]"
                         : "w-6 bg-white/20 hover:bg-white/40"
                     }`}
                     aria-label={`Jump to Chapter ${index + 1}`}
@@ -109,7 +109,7 @@ export function ScrollingFeatureShowcase() {
               </div>
 
               {/* Narrator Text Display */}
-              <div className="relative min-h-[260px] w-full mt-6">
+              <div className="relative min-h-65 w-full mt-6">
                 {heroChapters.map((chapter, index) => (
                   <div
                     key={chapter.id}
@@ -143,7 +143,7 @@ export function ScrollingFeatureShowcase() {
               <div className="absolute bottom-12 left-8 md:left-16 flex items-center gap-4">
                 <a
                   href="#explore"
-                  className="group px-8 py-4 bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 text-white font-semibold rounded-full uppercase tracking-wider text-xs hover:from-violet-500 hover:via-purple-500 hover:to-fuchsia-500 shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:shadow-[0_0_35px_rgba(168,85,247,0.8)] transition-all flex items-center gap-2 cursor-pointer"
+                  className="group px-8 py-4 bg-linear-to-r from-violet-600 via-purple-600 to-fuchsia-600 text-white font-semibold rounded-full uppercase tracking-wider text-xs hover:from-violet-500 hover:via-purple-500 hover:to-fuchsia-500 shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:shadow-[0_0_35px_rgba(168,85,247,0.8)] transition-all flex items-center gap-2 cursor-pointer"
                 >
                   <span>Begin the story</span>
                   <ArrowDown className="w-3.5 h-3.5 group-hover:translate-y-0.5 transition-transform" />
@@ -165,7 +165,7 @@ export function ScrollingFeatureShowcase() {
                   style={{ transform: `translateY(-${activeIndex * 100}%)` }}
                 >
                   {/* SLIDE 1 RECEIPT VISUAL: The 2 AM Audio Fragment */}
-                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-gradient-to-b from-slate-900/90 to-slate-950/90">
+                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-linear-to-b from-slate-900/90 to-slate-950/90">
                     <div className="w-full max-w-xs bg-slate-900 border border-slate-700/60 rounded-2xl p-6 shadow-2xl relative">
                       <div className="flex justify-between items-center text-xs text-slate-400 font-mono mb-4">
                         <span className="flex items-center gap-1.5 text-sky-400 font-sans font-medium">
@@ -191,7 +191,7 @@ export function ScrollingFeatureShowcase() {
                   </div>
 
                   {/* SLIDE 2 RECEIPT VISUAL: The Moving Truck Receipt */}
-                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-gradient-to-b from-zinc-900/90 to-neutral-950/90">
+                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-linear-to-b from-zinc-900/90 to-neutral-950/90">
                     <div className="w-full max-w-xs bg-[#fcfaf5] text-neutral-900 p-6 rounded-xl shadow-2xl font-mono-receipt border border-neutral-300">
                       <div className="flex justify-between items-center text-[10px] text-neutral-500 border-b border-dashed border-neutral-300 pb-2 mb-3">
                         <span className="font-sans font-bold text-amber-800 flex items-center gap-1">
@@ -222,7 +222,7 @@ export function ScrollingFeatureShowcase() {
                   </div>
 
                   {/* SLIDE 3 RECEIPT VISUAL: The Neighborhood Note & Café Pin */}
-                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-gradient-to-b from-emerald-950/40 to-neutral-950/90">
+                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-linear-to-b from-emerald-950/40 to-neutral-950/90">
                     <div className="w-full max-w-xs space-y-3">
                       <div className="bg-[#fbf7e8] text-neutral-900 p-5 rounded-xl shadow-xl border border-yellow-600/20 font-sans">
                         <div className="text-[11px] font-bold text-emerald-800 uppercase tracking-wider mb-1 flex items-center gap-1">
@@ -251,7 +251,7 @@ export function ScrollingFeatureShowcase() {
                   </div>
 
                   {/* SLIDE 4 RECEIPT VISUAL: The June 14 Reveal Cluster */}
-                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-gradient-to-b from-amber-950/30 to-neutral-950/90">
+                  <div className="w-full h-full flex flex-col justify-center items-center p-8 bg-linear-to-b from-amber-950/30 to-neutral-950/90">
                     <div className="w-full max-w-xs space-y-3">
                       <div className="bg-amber-500/10 border border-amber-500/30 rounded-xl p-3 text-amber-200 text-xs font-mono flex items-center justify-between">
                         <span className="font-bold">JUNE 14 • 11:58 PM</span>

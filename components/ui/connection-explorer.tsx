@@ -170,12 +170,12 @@ export const ConnectionExplorer: React.FC<ConnectionExplorerProps> = ({
       }}
     >
       {/* Ambient glow orbs */}
-      <div className="absolute top-0 left-1/4 w-[650px] h-[650px] rounded-full bg-violet-600/[0.18] blur-[140px] pointer-events-none" />
-      <div className="absolute bottom-1/4 right-1/6 w-[600px] h-[600px] rounded-full bg-purple-500/[0.15] blur-[120px] pointer-events-none" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full bg-fuchsia-600/[0.12] blur-[160px] pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-162.5 h-162.5 rounded-full bg-violet-600/18 blur-[140px] pointer-events-none" />
+      <div className="absolute bottom-1/4 right-1/6 w-150 h-150 rounded-full bg-purple-500/15 blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-175 h-175 rounded-full bg-fuchsia-600/12 blur-[160px] pointer-events-none" />
       
       {/* Subtle dot grid */}
-      <div className="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] [background-size:28px_28px] opacity-20 pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(#ffffff08_1px,transparent_1px)] bg-size-[28px_28px] opacity-20 pointer-events-none" />
 
       {/* Header & Controls */}
       <div className="relative max-w-7xl mx-auto mb-8 z-20">

@@ -137,9 +137,9 @@ export const ReceiptCard: React.FC<ReceiptCardProps> = ({
 
         {/* Barcode graphic */}
         <div className="mt-2 pt-2 border-t border-neutral-200 flex justify-between items-center opacity-60">
-          <div className="h-5 flex items-end gap-[2px]">
+          <div className="h-5 flex items-end gap-0.5">
             {[3, 8, 4, 9, 2, 7, 5, 8, 3, 6, 2, 9, 4, 7, 3, 5, 8, 4, 6].map((h, i) => (
-              <div key={i} className="bg-neutral-800 w-[2px]" style={{ height: `${h * 2}px` }} />
+              <div key={i} className="bg-neutral-800 w-0.5" style={{ height: `${h * 2}px` }} />
             ))}
           </div>
           <span className="text-[10px] text-neutral-400 font-mono">AUTH# {receipt.id.toUpperCase()}</span>
@@ -267,7 +267,7 @@ export const ReceiptCard: React.FC<ReceiptCardProps> = ({
           "bg-neutral-950 border border-cyan-500/25 p-3 text-neutral-200"
         )}
       >
-        <div className="relative aspect-[4/3] rounded-lg overflow-hidden mb-2 bg-neutral-900 border border-white/10">
+        <div className="relative aspect-4/3 rounded-lg overflow-hidden mb-2 bg-neutral-900 border border-white/10">
           <img
             src={details?.imageUrl || "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80"}
             alt={title}
@@ -557,8 +557,8 @@ function InteractiveMusicCard({
       className={cn(
         containerClasses,
         isTheWeeknd
-          ? "bg-gradient-to-br from-[#120808] via-[#1a0a0c] to-[#2b080f] border-rose-600/30 hover:border-rose-500/60 p-4 text-neutral-200 shadow-[0_4px_25px_-5px_rgba(225,29,72,0.15)]"
-          : "bg-gradient-to-br from-neutral-900 via-neutral-900/90 to-violet-950/40 border border-violet-500/20 p-4 text-neutral-200"
+          ? "bg-linear-to-br from-[#120808] via-[#1a0a0c] to-[#2b080f] border-rose-600/30 hover:border-rose-500/60 p-4 text-neutral-200 shadow-[0_4px_25px_-5px_rgba(225,29,72,0.15)]"
+          : "bg-linear-to-br from-neutral-900 via-neutral-900/90 to-violet-950/40 border border-violet-500/20 p-4 text-neutral-200"
       )}
     >
       {/* Top Header with time and badges */}
@@ -595,7 +595,7 @@ function InteractiveMusicCard({
           <div className="text-xs text-neutral-400 mt-0.5 flex items-center gap-2">
             <span>{receipt.details?.artist || receipt.subtitle}</span>
             {receipt.details?.album && (
-              <span className="text-[10px] text-neutral-500 font-mono truncate max-w-[120px]">
+              <span className="text-[10px] text-neutral-500 font-mono truncate max-w-30">
                 • {receipt.details.album}
               </span>
             )}
@@ -638,7 +638,7 @@ function InteractiveMusicCard({
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
             </div>
           ) : (
             <div className="relative z-20 w-12 h-12 rounded-lg bg-neutral-800 border border-white/10 flex items-center justify-center text-neutral-400">
@@ -679,7 +679,7 @@ function InteractiveMusicCard({
           </button>
 
           {/* Equalizer Bars */}
-          <div className="flex items-end gap-[3px] h-4">
+          <div className="flex items-end gap-0.75 h-4">
             <span
               className={cn(
                 "w-1 rounded-full transition-all",

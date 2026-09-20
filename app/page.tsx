@@ -135,8 +135,8 @@ export default function LifeInReceiptsPage() {
 
       {/* Atmospheric Footer */}
       <footer className="relative py-20 px-6 text-center text-xs text-neutral-500 font-mono overflow-hidden">
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[400px] rounded-full bg-violet-600/[0.12] blur-[100px] pointer-events-none" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-violet-500/30 to-transparent" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-100 h-100 rounded-full bg-violet-600/12 blur-[100px] pointer-events-none" />
         <div className="max-w-md mx-auto space-y-4 relative z-10 flex flex-col items-center">
           <WakeLogo markSize={22} textSize="text-lg" className="opacity-80" />
           <p className="text-neutral-500 text-[11px] mt-1">A reconstructed digital life across 10 months.</p>

@@ -74,9 +74,9 @@ export const Timeline: React.FC<TimelineProps> = ({
       }}
     >
       {/* Ambient gradient glow */}
-      <div className="absolute top-1/4 right-1/4 w-[650px] h-[650px] rounded-full bg-violet-600/[0.18] blur-[140px] pointer-events-none" />
-      <div className="absolute bottom-1/3 left-1/5 w-[550px] h-[550px] rounded-full bg-fuchsia-600/[0.14] blur-[130px] pointer-events-none" />
-      <div className="absolute top-2/3 right-1/6 w-[450px] h-[450px] rounded-full bg-purple-500/[0.12] blur-[110px] pointer-events-none" />
+      <div className="absolute top-1/4 right-1/4 w-162.5 h-162.5 rounded-full bg-violet-600/18 blur-[140px] pointer-events-none" />
+      <div className="absolute bottom-1/3 left-1/5 w-137.5 h-137.5 rounded-full bg-fuchsia-600/14 blur-[130px] pointer-events-none" />
+      <div className="absolute top-2/3 right-1/6 w-112.5 h-112.5 rounded-full bg-purple-500/12 blur-[110px] pointer-events-none" />
       {/* Narrative Section Header */}
       <div className="max-w-7xl mx-auto py-8 px-4 md:px-8 lg:px-10">
         <h2 className="text-2xl md:text-4xl font-semibold tracking-tight text-white drop-shadow-[0_0_20px_rgba(168,85,247,0.45)]">
@@ -178,14 +178,14 @@ export const Timeline: React.FC<TimelineProps> = ({
         {/* Scroll Gradient Progress Line */}
         <div
           style={{ height: height + "px" }}
-          className="absolute md:left-8 left-8 top-0 overflow-hidden w-[2px] bg-neutral-800 [mask-image:linear-gradient(to_bottom,transparent_0%,black_5%,black_95%,transparent_100%)]"
+          className="absolute md:left-8 left-8 top-0 overflow-hidden w-0.5 bg-neutral-800 mask-[linear-gradient(to_bottom,transparent_0%,black_5%,black_95%,transparent_100%)]"
         >
           <motion.div
             style={{
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0 w-[2px] bg-gradient-to-t from-violet-400 via-fuchsia-400 to-transparent rounded-full shadow-[0_0_15px_rgba(168,85,247,0.95)]"
+            className="absolute inset-x-0 top-0 w-0.5 bg-linear-to-t from-violet-400 via-fuchsia-400 to-transparent rounded-full shadow-[0_0_15px_rgba(168,85,247,0.95)]"
           />
         </div>
       </div>

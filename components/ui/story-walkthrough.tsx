@@ -190,7 +190,7 @@ export const StoryWalkthrough: React.FC<StoryWalkthroughProps> = ({ isOpen, onCl
         </div>
 
         {/* Content Body */}
-        <div className="min-h-[160px] flex flex-col justify-center">
+        <div className="min-h-40 flex flex-col justify-center">
           <h3 className="text-xl md:text-2xl font-bold text-white tracking-tight leading-snug">
             {currentStep.title}
           </h3>
