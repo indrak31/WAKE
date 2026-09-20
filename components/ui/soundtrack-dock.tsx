@@ -470,6 +470,8 @@ export const SoundtrackDock: React.FC<{ className?: string }> = ({ className }) 
                 alt={currentTrack.name}
                 className={cn("w-full h-full object-cover", isPlaying && "animate-spin")}
                 style={{ animationDuration: "8s" }}
+                loading="lazy"
+                decoding="async"
               />
             </div>
           )}
@@ -531,6 +533,8 @@ export const SoundtrackDock: React.FC<{ className?: string }> = ({ className }) 
                   src={currentTrack.coverUrl}
                   alt={currentTrack.name}
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             ) : (
@@ -599,6 +603,8 @@ export const SoundtrackDock: React.FC<{ className?: string }> = ({ className }) 
                     src={t.coverUrl}
                     alt={t.name}
                     className="w-8 h-8 rounded-md object-cover border border-white/10 shrink-0"
+                    loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div

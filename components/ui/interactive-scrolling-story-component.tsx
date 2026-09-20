@@ -179,6 +179,8 @@ export function ScrollingFeatureShowcase() {
                           src="/covers/call-out-my-name.jpg"
                           alt="Call Out My Name poster"
                           className="w-full h-full object-cover"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div className="text-center font-bold text-lg text-white">Call Out My Name</div>

@@ -272,6 +272,8 @@ export const ReceiptCard: React.FC<ReceiptCardProps> = ({
             src={details?.imageUrl || "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop&q=80"}
             alt={title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute top-2 left-2 bg-black/60 backdrop-blur-xs text-[10px] text-cyan-300 px-2 py-0.5 rounded flex items-center gap-1 font-mono">
             <Camera className="w-2.5 h-2.5" /> {details?.timeLabel}

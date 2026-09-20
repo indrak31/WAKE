@@ -116,6 +116,8 @@ export const ReceiptDetailModal: React.FC<ReceiptDetailModalProps> = ({
                   src={receipt.details.albumArt}
                   alt={`${receipt.title} poster`}
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="space-y-1">
@@ -141,6 +143,8 @@ export const ReceiptDetailModal: React.FC<ReceiptDetailModalProps> = ({
                 src={receipt.details.imageUrl}
                 alt={receipt.title}
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           )}
